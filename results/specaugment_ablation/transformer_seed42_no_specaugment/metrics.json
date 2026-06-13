@@ -1,0 +1,224 @@
+{
+  "model": "transformer",
+  "seed": 42,
+  "debug_gates": {
+    "skipped": true,
+    "reason": "--skip-debug-gates was set"
+  },
+  "parameter_count": 3196944,
+  "dataset_sizes": {
+    "training": 13512,
+    "validation": 1704,
+    "test": 1772
+  },
+  "best_epoch": 14,
+  "best_val_macro_f1": 0.3313895424733212,
+  "total_train_seconds": 299.16446375794476,
+  "peak_gpu_memory_allocated_mb": 2031.05615234375,
+  "test_accuracy": 0.41309255079006774,
+  "test_balanced_accuracy": 0.3300379464424052,
+  "test_macro_f1": 0.2887731678531963,
+  "test_weighted_f1": 0.4858056952454233,
+  "test_macro_precision": 0.30241664977109245,
+  "test_macro_recall": 0.3300379464424052,
+  "test_cohen_kappa": 0.3305492832088065,
+  "test_matthews_corrcoef": 0.3468515850712968,
+  "test_top_2_accuracy": 0.5801354401805869,
+  "test_top_3_accuracy": 0.7042889390519187,
+  "test_expected_calibration_error": 0.12334219973458664,
+  "test_multiclass_brier": 0.7756284823105933,
+  "test_roc_auc_ovr_macro": null,
+  "classification_report": {
+    "0": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 8.0
+    },
+    "1": {
+      "precision": 0.6049382716049383,
+      "recall": 0.7903225806451613,
+      "f1-score": 0.6853146853146853,
+      "support": 62.0
+    },
+    "2": {
+      "precision": 0.04938271604938271,
+      "recall": 0.2222222222222222,
+      "f1-score": 0.08080808080808081,
+      "support": 18.0
+    },
+    "3": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "4": {
+      "precision": 0.83984375,
+      "recall": 0.4041353383458647,
+      "f1-score": 0.5456852791878173,
+      "support": 532.0
+    },
+    "5": {
+      "precision": 0.16176470588235295,
+      "recall": 0.176,
+      "f1-score": 0.1685823754789272,
+      "support": 125.0
+    },
+    "6": {
+      "precision": 0.1402439024390244,
+      "recall": 0.4423076923076923,
+      "f1-score": 0.21296296296296297,
+      "support": 52.0
+    },
+    "7": {
+      "precision": 0.5478260869565217,
+      "recall": 0.525,
+      "f1-score": 0.5361702127659574,
+      "support": 120.0
+    },
+    "8": {
+      "precision": 0.055865921787709494,
+      "recall": 0.13513513513513514,
+      "f1-score": 0.07905138339920949,
+      "support": 74.0
+    },
+    "9": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "10": {
+      "precision": 0.17142857142857143,
+      "recall": 0.46153846153846156,
+      "f1-score": 0.25,
+      "support": 39.0
+    },
+    "11": {
+      "precision": 0.847457627118644,
+      "recall": 0.9803921568627451,
+      "f1-score": 0.9090909090909091,
+      "support": 51.0
+    },
+    "12": {
+      "precision": 0.00980392156862745,
+      "recall": 0.10526315789473684,
+      "f1-score": 0.017937219730941704,
+      "support": 19.0
+    },
+    "13": {
+      "precision": 0.8976109215017065,
+      "recall": 0.4311475409836066,
+      "f1-score": 0.5825027685492802,
+      "support": 610.0
+    },
+    "14": {
+      "precision": 0.2,
+      "recall": 0.19047619047619047,
+      "f1-score": 0.1951219512195122,
+      "support": 42.0
+    },
+    "15": {
+      "precision": 0.3125,
+      "recall": 0.4166666666666667,
+      "f1-score": 0.35714285714285715,
+      "support": 12.0
+    },
+    "accuracy": 0.41309255079006774,
+    "macro avg": {
+      "precision": 0.30241664977109245,
+      "recall": 0.3300379464424052,
+      "f1-score": 0.2887731678531963,
+      "support": 1772.0
+    },
+    "weighted avg": {
+      "precision": 0.6728913128849896,
+      "recall": 0.41309255079006774,
+      "f1-score": 0.4858056952454233,
+      "support": 1772.0
+    }
+  },
+  "top_confusions": [
+    {
+      "true_label": 3,
+      "predicted_label": 8,
+      "true_name": "Easy Listening",
+      "predicted_name": "Instrumental",
+      "count": 3,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 9,
+      "predicted_label": 2,
+      "true_name": "International",
+      "predicted_name": "Country",
+      "count": 1,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 9,
+      "predicted_label": 10,
+      "true_name": "International",
+      "predicted_name": "Jazz",
+      "count": 1,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 8,
+      "predicted_label": 6,
+      "true_name": "Instrumental",
+      "predicted_name": "Folk",
+      "count": 31,
+      "true_class_rate": 0.4189189189189189
+    },
+    {
+      "true_label": 2,
+      "predicted_label": 6,
+      "true_name": "Country",
+      "predicted_name": "Folk",
+      "count": 7,
+      "true_class_rate": 0.3888888888888889
+    },
+    {
+      "true_label": 5,
+      "predicted_label": 8,
+      "true_name": "Experimental",
+      "predicted_name": "Instrumental",
+      "count": 37,
+      "true_class_rate": 0.296
+    },
+    {
+      "true_label": 10,
+      "predicted_label": 6,
+      "true_name": "Jazz",
+      "predicted_name": "Folk",
+      "count": 11,
+      "true_class_rate": 0.28205128205128205
+    },
+    {
+      "true_label": 12,
+      "predicted_label": 6,
+      "true_name": "Pop",
+      "predicted_name": "Folk",
+      "count": 5,
+      "true_class_rate": 0.2631578947368421
+    },
+    {
+      "true_label": 15,
+      "predicted_label": 6,
+      "true_name": "Spoken",
+      "predicted_name": "Folk",
+      "count": 3,
+      "true_class_rate": 0.25
+    },
+    {
+      "true_label": 0,
+      "predicted_label": 2,
+      "true_name": "Blues",
+      "predicted_name": "Country",
+      "count": 2,
+      "true_class_rate": 0.25
+    }
+  ]
+}

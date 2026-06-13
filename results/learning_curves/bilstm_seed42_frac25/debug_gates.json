@@ -1,0 +1,19 @@
+{
+  "single_batch_overfit": {
+    "passed": true,
+    "steps": 8,
+    "final_accuracy": 1.0,
+    "final_loss": 0.019142556935548782
+  },
+  "subset_loss_drop": {
+    "passed": true,
+    "losses": [
+      2.2143797129392624,
+      2.2754652947187424,
+      1.8188839480280876,
+      1.4454238265752792,
+      1.1800095215439796
+    ],
+    "subset_size": 256
+  }
+}

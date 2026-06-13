@@ -1,0 +1,212 @@
+{
+  "cnn2d": [
+    {
+      "i": 3,
+      "j": 8,
+      "sum_off_diag_normalized": 0.5414414414414415,
+      "raw_count": 19.0,
+      "i_name": "Easy Listening",
+      "j_name": "Instrumental"
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "sum_off_diag_normalized": 0.5081811085089774,
+      "raw_count": 157.0,
+      "i_name": "Rock",
+      "j_name": "Soul-RnB"
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "sum_off_diag_normalized": 0.5,
+      "raw_count": 5.0,
+      "i_name": "International",
+      "j_name": "Jazz"
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "sum_off_diag_normalized": 0.43503118503118504,
+      "raw_count": 147.0,
+      "i_name": "Folk",
+      "j_name": "Instrumental"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "sum_off_diag_normalized": 0.43333333333333335,
+      "raw_count": 13.0,
+      "i_name": "Classical",
+      "j_name": "Easy Listening"
+    }
+  ],
+  "bilstm": [
+    {
+      "i": 9,
+      "j": 13,
+      "sum_off_diag_normalized": 0.6,
+      "raw_count": 6.0,
+      "i_name": "International",
+      "j_name": "Rock"
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "sum_off_diag_normalized": 0.4130977130977131,
+      "raw_count": 141.0,
+      "i_name": "Folk",
+      "j_name": "Instrumental"
+    },
+    {
+      "i": 4,
+      "j": 12,
+      "sum_off_diag_normalized": 0.39436090225563913,
+      "raw_count": 77.0,
+      "i_name": "Electronic",
+      "j_name": "Pop"
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "sum_off_diag_normalized": 0.3765027322404371,
+      "raw_count": 107.0,
+      "i_name": "Rock",
+      "j_name": "Soul-RnB"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "sum_off_diag_normalized": 0.36666666666666664,
+      "raw_count": 11.0,
+      "i_name": "Classical",
+      "j_name": "Easy Listening"
+    }
+  ],
+  "transformer": [
+    {
+      "i": 9,
+      "j": 10,
+      "sum_off_diag_normalized": 0.8153846153846154,
+      "raw_count": 11.0,
+      "i_name": "International",
+      "j_name": "Jazz"
+    },
+    {
+      "i": 3,
+      "j": 8,
+      "sum_off_diag_normalized": 0.43333333333333335,
+      "raw_count": 13.0,
+      "i_name": "Easy Listening",
+      "j_name": "Instrumental"
+    },
+    {
+      "i": 2,
+      "j": 13,
+      "sum_off_diag_normalized": 0.426448087431694,
+      "raw_count": 314.0,
+      "i_name": "Country",
+      "j_name": "Rock"
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "sum_off_diag_normalized": 0.40885245901639344,
+      "raw_count": 111.0,
+      "i_name": "Rock",
+      "j_name": "Soul-RnB"
+    },
+    {
+      "i": 0,
+      "j": 13,
+      "sum_off_diag_normalized": 0.40426229508196726,
+      "raw_count": 29.0,
+      "i_name": "Blues",
+      "j_name": "Rock"
+    }
+  ],
+  "mamba1": [
+    {
+      "i": 9,
+      "j": 13,
+      "sum_off_diag_normalized": 0.5013114754098361,
+      "raw_count": 9.0,
+      "i_name": "International",
+      "j_name": "Rock"
+    },
+    {
+      "i": 4,
+      "j": 12,
+      "sum_off_diag_normalized": 0.43947368421052635,
+      "raw_count": 62.0,
+      "i_name": "Electronic",
+      "j_name": "Pop"
+    },
+    {
+      "i": 0,
+      "j": 13,
+      "sum_off_diag_normalized": 0.4039344262295082,
+      "raw_count": 28.0,
+      "i_name": "Blues",
+      "j_name": "Rock"
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "sum_off_diag_normalized": 0.3576923076923077,
+      "raw_count": 126.0,
+      "i_name": "Folk",
+      "j_name": "Instrumental"
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "sum_off_diag_normalized": 0.3457923497267759,
+      "raw_count": 108.0,
+      "i_name": "Rock",
+      "j_name": "Soul-RnB"
+    }
+  ],
+  "mamba2": [
+    {
+      "i": 1,
+      "j": 3,
+      "sum_off_diag_normalized": 0.5,
+      "raw_count": 15.0,
+      "i_name": "Classical",
+      "j_name": "Easy Listening"
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "sum_off_diag_normalized": 0.5,
+      "raw_count": 5.0,
+      "i_name": "International",
+      "j_name": "Jazz"
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "sum_off_diag_normalized": 0.4047306791569087,
+      "raw_count": 139.0,
+      "i_name": "Rock",
+      "j_name": "Soul-RnB"
+    },
+    {
+      "i": 0,
+      "j": 13,
+      "sum_off_diag_normalized": 0.40229508196721314,
+      "raw_count": 23.0,
+      "i_name": "Blues",
+      "j_name": "Rock"
+    },
+    {
+      "i": 9,
+      "j": 13,
+      "sum_off_diag_normalized": 0.4,
+      "raw_count": 4.0,
+      "i_name": "International",
+      "j_name": "Rock"
+    }
+  ]
+}

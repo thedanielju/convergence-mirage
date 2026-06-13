@@ -1,0 +1,32 @@
+[project]
+name = "convergence-mirage"
+version = "0.1.0"
+description = "Music genre classification experiments and representation analysis on FMA Medium."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Daniel Ju" }]
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "torch",
+  "librosa",
+  "joblib",
+  "xgboost",
+  "matplotlib",
+  "requests",
+  "urllib3",
+  "einops",
+]
+
+[project.optional-dependencies]
+mamba = ["causal-conv1d", "mamba-ssm"]
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+

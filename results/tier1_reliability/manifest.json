@@ -1,0 +1,272 @@
+[
+  {
+    "run_id": "long_sequence__mamba2_seed46_60s",
+    "path": "results/long_sequence/mamba2_seed46_60s",
+    "status": "completed",
+    "model": "mamba2",
+    "seed": 46,
+    "crop_seconds": 60.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.08756320522446395,
+      "csv": "results/tier1_reliability/long_sequence__mamba2_seed46_60s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "long_sequence__transformer_seed42_60s",
+    "path": "results/long_sequence/transformer_seed42_60s",
+    "status": "completed",
+    "model": "transformer",
+    "seed": 42,
+    "crop_seconds": 60.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.1319183312507838,
+      "csv": "results/tier1_reliability/long_sequence__transformer_seed42_60s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "long_sequence__transformer_seed43_60s",
+    "path": "results/long_sequence/transformer_seed43_60s",
+    "status": "completed",
+    "model": "transformer",
+    "seed": 43,
+    "crop_seconds": 60.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.1115554533057907,
+      "csv": "results/tier1_reliability/long_sequence__transformer_seed43_60s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "long_sequence__transformer_seed44_60s",
+    "path": "results/long_sequence/transformer_seed44_60s",
+    "status": "completed",
+    "model": "transformer",
+    "seed": 44,
+    "crop_seconds": 60.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.07163708924439906,
+      "csv": "results/tier1_reliability/long_sequence__transformer_seed44_60s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "ablation_fma_full60_crop15__cnn2d_seed42_15s",
+    "path": "results/ablation/fma_full60_crop15/cnn2d_seed42_15s",
+    "status": "completed",
+    "model": "cnn2d",
+    "seed": 42,
+    "crop_seconds": 15.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.09592419052097116,
+      "csv": "results/tier1_reliability/ablation_fma_full60_crop15__cnn2d_seed42_15s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "ablation_fma_full60_crop15__cnn2d_seed43_15s",
+    "path": "results/ablation/fma_full60_crop15/cnn2d_seed43_15s",
+    "status": "completed",
+    "model": "cnn2d",
+    "seed": 43,
+    "crop_seconds": 15.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.03467892435785072,
+      "csv": "results/tier1_reliability/ablation_fma_full60_crop15__cnn2d_seed43_15s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "ablation_fma_full60_crop15__cnn2d_seed44_15s",
+    "path": "results/ablation/fma_full60_crop15/cnn2d_seed44_15s",
+    "status": "completed",
+    "model": "cnn2d",
+    "seed": 44,
+    "crop_seconds": 15.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.04253881874559426,
+      "csv": "results/tier1_reliability/ablation_fma_full60_crop15__cnn2d_seed44_15s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "ablation_fma_full60_crop15__lstm_seed42_15s",
+    "path": "results/ablation/fma_full60_crop15/lstm_seed42_15s",
+    "status": "completed",
+    "model": "lstm",
+    "seed": 42,
+    "crop_seconds": 15.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.15476015179878436,
+      "csv": "results/tier1_reliability/ablation_fma_full60_crop15__lstm_seed42_15s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "ablation_fma_full60_crop15__lstm_seed43_15s",
+    "path": "results/ablation/fma_full60_crop15/lstm_seed43_15s",
+    "status": "completed",
+    "model": "lstm",
+    "seed": 43,
+    "crop_seconds": 15.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.2005348587177408,
+      "csv": "results/tier1_reliability/ablation_fma_full60_crop15__lstm_seed43_15s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "ablation_fma_full60_crop15__lstm_seed44_15s",
+    "path": "results/ablation/fma_full60_crop15/lstm_seed44_15s",
+    "status": "completed",
+    "model": "lstm",
+    "seed": 44,
+    "crop_seconds": 15.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.0832835788466457,
+      "csv": "results/tier1_reliability/ablation_fma_full60_crop15__lstm_seed44_15s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "ablation_fma_full60_crop15__mamba1_seed42_15s",
+    "path": "results/ablation/fma_full60_crop15/mamba1_seed42_15s",
+    "status": "completed",
+    "model": "mamba1",
+    "seed": 42,
+    "crop_seconds": 15.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.055113780318547044,
+      "csv": "results/tier1_reliability/ablation_fma_full60_crop15__mamba1_seed42_15s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "ablation_fma_full60_crop15__mamba1_seed43_15s",
+    "path": "results/ablation/fma_full60_crop15/mamba1_seed43_15s",
+    "status": "completed",
+    "model": "mamba1",
+    "seed": 43,
+    "crop_seconds": 15.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.1248748937861376,
+      "csv": "results/tier1_reliability/ablation_fma_full60_crop15__mamba1_seed43_15s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "ablation_fma_full60_crop15__mamba1_seed44_15s",
+    "path": "results/ablation/fma_full60_crop15/mamba1_seed44_15s",
+    "status": "completed",
+    "model": "mamba1",
+    "seed": 44,
+    "crop_seconds": 15.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.03212220021618139,
+      "csv": "results/tier1_reliability/ablation_fma_full60_crop15__mamba1_seed44_15s_reliability.csv"
+    }
+  },
+  {
+    "run_id": "specaugment_ablation__cnn2d_seed42_no_specaugment",
+    "path": "results/specaugment_ablation/cnn2d_seed42_no_specaugment",
+    "status": "completed",
+    "model": "cnn2d",
+    "seed": 42,
+    "crop_seconds": 30.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.06509089619594019,
+      "csv": "results/tier1_reliability/specaugment_ablation__cnn2d_seed42_no_specaugment_reliability.csv"
+    }
+  },
+  {
+    "run_id": "specaugment_ablation__lstm_seed42_no_specaugment",
+    "path": "results/specaugment_ablation/lstm_seed42_no_specaugment",
+    "status": "completed",
+    "model": "lstm",
+    "seed": 42,
+    "crop_seconds": 30.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.05707255480117237,
+      "csv": "results/tier1_reliability/specaugment_ablation__lstm_seed42_no_specaugment_reliability.csv"
+    }
+  },
+  {
+    "run_id": "specaugment_ablation__mamba1_seed42_no_specaugment",
+    "path": "results/specaugment_ablation/mamba1_seed42_no_specaugment",
+    "status": "completed",
+    "model": "mamba1",
+    "seed": 42,
+    "crop_seconds": 30.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.016424727384379435,
+      "csv": "results/tier1_reliability/specaugment_ablation__mamba1_seed42_no_specaugment_reliability.csv"
+    }
+  },
+  {
+    "run_id": "specaugment_ablation__mamba2_seed42_no_specaugment",
+    "path": "results/specaugment_ablation/mamba2_seed42_no_specaugment",
+    "status": "completed",
+    "model": "mamba2",
+    "seed": 42,
+    "crop_seconds": 30.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.17037757435649567,
+      "csv": "results/tier1_reliability/specaugment_ablation__mamba2_seed42_no_specaugment_reliability.csv"
+    }
+  },
+  {
+    "run_id": "specaugment_ablation__transformer_seed42_no_specaugment",
+    "path": "results/specaugment_ablation/transformer_seed42_no_specaugment",
+    "status": "completed",
+    "model": "transformer",
+    "seed": 42,
+    "crop_seconds": 30.0,
+    "has_probabilities": true,
+    "has_labels": true,
+    "has_predictions": true,
+    "reliability": {
+      "ece_10bin": 0.12334219988595282,
+      "csv": "results/tier1_reliability/specaugment_ablation__transformer_seed42_no_specaugment_reliability.csv"
+    }
+  }
+]

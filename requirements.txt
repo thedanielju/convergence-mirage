@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+scikit-learn
+torch
+librosa
+joblib
+xgboost
+matplotlib
+requests
+urllib3
+einops
+causal-conv1d
+mamba-ssm

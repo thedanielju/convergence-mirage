@@ -1,0 +1,146 @@
+{
+  "n_pairs": 28,
+  "mean_abs_pearson_r_across_pairs": 0.10594634812831559,
+  "pairs": [
+    {
+      "left": "timbre",
+      "right": "pitch_class",
+      "mean_abs_pearson_r": 0.06492746718924963
+    },
+    {
+      "left": "timbre",
+      "right": "tonal_geometry",
+      "mean_abs_pearson_r": 0.07523110952960436
+    },
+    {
+      "left": "timbre",
+      "right": "spectral_contrast",
+      "mean_abs_pearson_r": 0.16724530143663993
+    },
+    {
+      "left": "timbre",
+      "right": "spectral_shape",
+      "mean_abs_pearson_r": 0.1597663384945826
+    },
+    {
+      "left": "timbre",
+      "right": "noisiness",
+      "mean_abs_pearson_r": 0.12061586285584763
+    },
+    {
+      "left": "timbre",
+      "right": "energy",
+      "mean_abs_pearson_r": 0.10631682192472872
+    },
+    {
+      "left": "timbre",
+      "right": "rhythm",
+      "mean_abs_pearson_r": 0.12380812228346127
+    },
+    {
+      "left": "pitch_class",
+      "right": "tonal_geometry",
+      "mean_abs_pearson_r": 0.12400042567140825
+    },
+    {
+      "left": "pitch_class",
+      "right": "spectral_contrast",
+      "mean_abs_pearson_r": 0.09548812672439944
+    },
+    {
+      "left": "pitch_class",
+      "right": "spectral_shape",
+      "mean_abs_pearson_r": 0.06538624246106141
+    },
+    {
+      "left": "pitch_class",
+      "right": "noisiness",
+      "mean_abs_pearson_r": 0.06482164132060181
+    },
+    {
+      "left": "pitch_class",
+      "right": "energy",
+      "mean_abs_pearson_r": 0.037648495158164874
+    },
+    {
+      "left": "pitch_class",
+      "right": "rhythm",
+      "mean_abs_pearson_r": 0.03727055467522162
+    },
+    {
+      "left": "tonal_geometry",
+      "right": "spectral_contrast",
+      "mean_abs_pearson_r": 0.1070240542033381
+    },
+    {
+      "left": "tonal_geometry",
+      "right": "spectral_shape",
+      "mean_abs_pearson_r": 0.08690813600837691
+    },
+    {
+      "left": "tonal_geometry",
+      "right": "noisiness",
+      "mean_abs_pearson_r": 0.08283437258104023
+    },
+    {
+      "left": "tonal_geometry",
+      "right": "energy",
+      "mean_abs_pearson_r": 0.057684433032027395
+    },
+    {
+      "left": "tonal_geometry",
+      "right": "rhythm",
+      "mean_abs_pearson_r": 0.049592210289784076
+    },
+    {
+      "left": "spectral_contrast",
+      "right": "spectral_shape",
+      "mean_abs_pearson_r": 0.18459996204952456
+    },
+    {
+      "left": "spectral_contrast",
+      "right": "noisiness",
+      "mean_abs_pearson_r": 0.13147261083484924
+    },
+    {
+      "left": "spectral_contrast",
+      "right": "energy",
+      "mean_abs_pearson_r": 0.12187060611013764
+    },
+    {
+      "left": "spectral_contrast",
+      "right": "rhythm",
+      "mean_abs_pearson_r": 0.10409986028487686
+    },
+    {
+      "left": "spectral_shape",
+      "right": "noisiness",
+      "mean_abs_pearson_r": 0.2858919137496315
+    },
+    {
+      "left": "spectral_shape",
+      "right": "energy",
+      "mean_abs_pearson_r": 0.12065176539328971
+    },
+    {
+      "left": "spectral_shape",
+      "right": "rhythm",
+      "mean_abs_pearson_r": 0.13478434267418413
+    },
+    {
+      "left": "noisiness",
+      "right": "energy",
+      "mean_abs_pearson_r": 0.06540445933830544
+    },
+    {
+      "left": "noisiness",
+      "right": "rhythm",
+      "mean_abs_pearson_r": 0.11129790393315474
+    },
+    {
+      "left": "energy",
+      "right": "rhythm",
+      "mean_abs_pearson_r": 0.07985460738534499
+    }
+  ]
+}

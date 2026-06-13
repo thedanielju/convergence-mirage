@@ -1,0 +1,16 @@
+model,source_model,seed,crop_seconds,status,macro_f1,accuracy,data_root,output_dir
+cnn2d,cnn2d,42,15.0,completed,0.3219521912217077,0.5445823927765236,data/processed/fma_full_60s,results/ablation/fma_full60_crop15/cnn2d_seed42_15s
+cnn2d,cnn2d,43,15.0,completed,0.3464867676452929,0.5727990970654627,data/processed/fma_full_60s,results/ablation/fma_full60_crop15/cnn2d_seed43_15s
+cnn2d,cnn2d,44,15.0,completed,0.31881254315016666,0.4971783295711061,data/processed/fma_full_60s,results/ablation/fma_full60_crop15/cnn2d_seed44_15s
+bilstm,lstm,42,15.0,completed,0.29098161935165356,0.5203160270880361,data/processed/fma_full_60s,results/ablation/fma_full60_crop15/lstm_seed42_15s
+bilstm,lstm,43,15.0,completed,0.2930294310533778,0.5908577878103838,data/processed/fma_full_60s,results/ablation/fma_full60_crop15/lstm_seed43_15s
+bilstm,lstm,44,15.0,completed,0.27997843590798027,0.5197516930022573,data/processed/fma_full_60s,results/ablation/fma_full60_crop15/lstm_seed44_15s
+mamba1,mamba1,42,15.0,completed,0.3038980718390355,0.5406320541760722,data/processed/fma_full_60s,results/ablation/fma_full60_crop15/mamba1_seed42_15s
+mamba1,mamba1,43,15.0,completed,0.2988526582179213,0.5694130925507901,data/processed/fma_full_60s,results/ablation/fma_full60_crop15/mamba1_seed43_15s
+mamba1,mamba1,44,15.0,completed,0.2883512468665809,0.5304740406320542,data/processed/fma_full_60s,results/ablation/fma_full60_crop15/mamba1_seed44_15s
+mamba2,mamba2,42,15.0,completed,0.3461033897463307,0.5818284424379232,,results/ablation/mamba2_seed42_15s
+mamba2,mamba2,43,15.0,completed,0.3613648463880106,0.6348758465011287,,results/ablation/mamba2_seed43_15s
+mamba2,mamba2,44,15.0,completed,0.34422497791980905,0.5880361173814899,data/processed/fma_medium,results/ablation/mamba2_seed44_15s
+transformer,transformer,42,15.0,completed,0.3112587169143284,0.5276523702031602,data/processed/fma_medium,results/ablation/transformer_seed42_15s
+transformer,transformer,43,15.0,completed,0.3125621899973581,0.5152370203160271,data/processed/fma_medium,results/ablation/transformer_seed43_15s
+transformer,transformer,44,15.0,completed,0.3214892423862834,0.5948081264108352,data/processed/fma_medium,results/ablation/transformer_seed44_15s

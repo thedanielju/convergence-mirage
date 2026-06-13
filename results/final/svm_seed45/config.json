@@ -1,0 +1,31 @@
+{
+  "model": "svm_rbf",
+  "seed": 45,
+  "feature_matrix": "540-d standardized FMA+rhythm features",
+  "selection_metric": "validation_macro_f1",
+  "refit_scope": "train_validation",
+  "refit_scope_recommendation": {
+    "default_refit_scope": "train_validation",
+    "selected_refit_scope": "train_validation",
+    "recommendation": "Use train_validation for final benchmark runs after validation has selected hyperparameters; use train_only only for strict validation-is-never-refit ablations."
+  },
+  "kernel": "rbf",
+  "class_weight": "balanced",
+  "grid": {
+    "svm__C": [
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "svm__gamma": [
+      "scale",
+      "auto",
+      0.001,
+      0.01
+    ]
+  },
+  "probability": false,
+  "smoke": false,
+  "n_jobs": 8
+}

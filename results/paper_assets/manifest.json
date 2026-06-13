@@ -1,0 +1,35 @@
+{
+  "confusion_figures": [
+    "confusion_bilstm.png",
+    "confusion_cnn2d.png",
+    "confusion_mamba1.png",
+    "confusion_mamba2.png",
+    "confusion_random_forest.png",
+    "confusion_svm_rbf.png",
+    "confusion_transformer.png",
+    "confusion_xgboost.png"
+  ],
+  "created_at_utc": "2026-05-09T07:20:56.384797Z",
+  "figures": [
+    "fig1_inter_arch_cka.png",
+    "fig2_8group_cka_profile.png",
+    "fig3_cka_vs_f1.png",
+    "fig4_novelty_gap.png",
+    "fig6_learning_curves.png"
+  ],
+  "paired_tests_significant_after_bonferroni": [],
+  "table_refresh_note": "Tables 4 and 5 refreshed during gap resolution to include May 9 stretch run directories; existing figures were left unchanged.",
+  "tables": [
+    "manifest.json",
+    "table1_performance.csv",
+    "table1_performance.json",
+    "table2_efficiency_calibration.csv",
+    "table2_efficiency_calibration.json",
+    "table3_top_confusions.csv",
+    "table3_top_confusions.json",
+    "table4_ablation.csv",
+    "table4_ablation.json",
+    "table5_long_sequence.csv",
+    "table5_long_sequence.json"
+  ]
+}

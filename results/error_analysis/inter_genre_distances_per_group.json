@@ -1,0 +1,2056 @@
+{
+  "n_classes": 16,
+  "n_pairs": 120,
+  "group_names": [
+    "timbre",
+    "pitch_class",
+    "tonal_geometry",
+    "spectral_contrast",
+    "spectral_shape",
+    "noisiness",
+    "energy",
+    "rhythm"
+  ],
+  "pairs": [
+    {
+      "i": 0,
+      "j": 1,
+      "i_name": "Blues",
+      "j_name": "Classical",
+      "full_distance": 12.735922733269335,
+      "per_group_distance": {
+        "timbre": 6.911910744019071,
+        "pitch_class": 3.174361527984825,
+        "tonal_geometry": 3.736701122738252,
+        "spectral_contrast": 5.802430428806826,
+        "spectral_shape": 3.395785891259263,
+        "noisiness": 0.9690923387734621,
+        "energy": 1.6427796330022013,
+        "rhythm": 2.56156874856399
+      }
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "i_name": "Blues",
+      "j_name": "Country",
+      "full_distance": 6.73112303741663,
+      "per_group_distance": {
+        "timbre": 3.813586295093655,
+        "pitch_class": 2.34348630175691,
+        "tonal_geometry": 1.9743460150396777,
+        "spectral_contrast": 2.181371004572695,
+        "spectral_shape": 1.8592541804544052,
+        "noisiness": 0.8146639414735001,
+        "energy": 1.2084217914169602,
+        "rhythm": 0.9907293896551805
+      }
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "i_name": "Blues",
+      "j_name": "Easy Listening",
+      "full_distance": 8.331059290084891,
+      "per_group_distance": {
+        "timbre": 5.618578771395293,
+        "pitch_class": 2.7873939029023687,
+        "tonal_geometry": 2.3618384276814846,
+        "spectral_contrast": 2.849532191413189,
+        "spectral_shape": 1.6899132285428207,
+        "noisiness": 0.718926578091476,
+        "energy": 0.9420821871885504,
+        "rhythm": 1.4270563934030411
+      }
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "i_name": "Blues",
+      "j_name": "Electronic",
+      "full_distance": 7.834615484803426,
+      "per_group_distance": {
+        "timbre": 4.615639708495437,
+        "pitch_class": 2.432974411040863,
+        "tonal_geometry": 1.8512782624623234,
+        "spectral_contrast": 2.203171565350348,
+        "spectral_shape": 2.2054887003524044,
+        "noisiness": 0.8428509128406313,
+        "energy": 1.6601576654018735,
+        "rhythm": 1.216187016728267
+      }
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "i_name": "Blues",
+      "j_name": "Experimental",
+      "full_distance": 7.210756124973741,
+      "per_group_distance": {
+        "timbre": 2.745474042292597,
+        "pitch_class": 3.466674735882893,
+        "tonal_geometry": 1.734631551267745,
+        "spectral_contrast": 1.909966441392845,
+        "spectral_shape": 1.37758641257058,
+        "noisiness": 0.956475961864047,
+        "energy": 0.3986618331117492,
+        "rhythm": 2.5601448239150697
+      }
+    },
+    {
+      "i": 0,
+      "j": 6,
+      "i_name": "Blues",
+      "j_name": "Folk",
+      "full_distance": 6.424630001178153,
+      "per_group_distance": {
+        "timbre": 3.189961655029369,
+        "pitch_class": 2.0327451480625642,
+        "tonal_geometry": 2.0384248515880627,
+        "spectral_contrast": 2.7743788380621925,
+        "spectral_shape": 1.4173780580603612,
+        "noisiness": 0.9075864128050073,
+        "energy": 0.4123608494860017,
+        "rhythm": 0.9838442347154818
+      }
+    },
+    {
+      "i": 0,
+      "j": 7,
+      "i_name": "Blues",
+      "j_name": "Hip-Hop",
+      "full_distance": 8.511444458665975,
+      "per_group_distance": {
+        "timbre": 5.170478809428642,
+        "pitch_class": 2.6785592201696304,
+        "tonal_geometry": 2.6249892084801996,
+        "spectral_contrast": 2.449188668484892,
+        "spectral_shape": 1.9586253275428163,
+        "noisiness": 1.0084290844338737,
+        "energy": 1.9629301367547813,
+        "rhythm": 1.8035517623828057
+      }
+    },
+    {
+      "i": 0,
+      "j": 8,
+      "i_name": "Blues",
+      "j_name": "Instrumental",
+      "full_distance": 8.15350711973459,
+      "per_group_distance": {
+        "timbre": 3.936971695627656,
+        "pitch_class": 2.4140278290430537,
+        "tonal_geometry": 1.711707446826582,
+        "spectral_contrast": 2.0510352905506797,
+        "spectral_shape": 2.529752674956889,
+        "noisiness": 0.791650326283983,
+        "energy": 0.43698536110143554,
+        "rhythm": 3.398906386898985
+      }
+    },
+    {
+      "i": 0,
+      "j": 9,
+      "i_name": "Blues",
+      "j_name": "International",
+      "full_distance": 9.75207063159227,
+      "per_group_distance": {
+        "timbre": 6.809787555135694,
+        "pitch_class": 2.8639826371577346,
+        "tonal_geometry": 2.35612862190752,
+        "spectral_contrast": 3.410777028759942,
+        "spectral_shape": 2.5698953329340606,
+        "noisiness": 1.764177273467183,
+        "energy": 0.552227349572422,
+        "rhythm": 1.5395637231422108
+      }
+    },
+    {
+      "i": 0,
+      "j": 10,
+      "i_name": "Blues",
+      "j_name": "Jazz",
+      "full_distance": 5.043949996292485,
+      "per_group_distance": {
+        "timbre": 3.002033750646419,
+        "pitch_class": 1.8171420001193612,
+        "tonal_geometry": 1.5904645673629494,
+        "spectral_contrast": 1.610547213917649,
+        "spectral_shape": 1.3768932762139412,
+        "noisiness": 0.6270076051084589,
+        "energy": 0.33881452885454066,
+        "rhythm": 0.9753091027255064
+      }
+    },
+    {
+      "i": 0,
+      "j": 11,
+      "i_name": "Blues",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 18.665467400957503,
+      "per_group_distance": {
+        "timbre": 13.270733285250625,
+        "pitch_class": 1.685864161681093,
+        "tonal_geometry": 2.3341180583189693,
+        "spectral_contrast": 5.917717466416743,
+        "spectral_shape": 7.624825928954563,
+        "noisiness": 1.9660950474139414,
+        "energy": 0.9784245378248284,
+        "rhythm": 2.9680877532693986
+      }
+    },
+    {
+      "i": 0,
+      "j": 12,
+      "i_name": "Blues",
+      "j_name": "Pop",
+      "full_distance": 4.64511659729591,
+      "per_group_distance": {
+        "timbre": 2.4537732605922047,
+        "pitch_class": 1.7976079802363065,
+        "tonal_geometry": 1.4371273246919714,
+        "spectral_contrast": 1.0384379090136453,
+        "spectral_shape": 1.2552118788178874,
+        "noisiness": 0.597024826278407,
+        "energy": 1.0725559350547416,
+        "rhythm": 1.0462080778440768
+      }
+    },
+    {
+      "i": 0,
+      "j": 13,
+      "i_name": "Blues",
+      "j_name": "Rock",
+      "full_distance": 8.74753026399658,
+      "per_group_distance": {
+        "timbre": 5.1556728630877,
+        "pitch_class": 2.5487403863260463,
+        "tonal_geometry": 1.737540654210281,
+        "spectral_contrast": 3.365728396451907,
+        "spectral_shape": 1.3868725825226558,
+        "noisiness": 0.600491624229132,
+        "energy": 1.2989431703312697,
+        "rhythm": 2.289260893625661
+      }
+    },
+    {
+      "i": 0,
+      "j": 14,
+      "i_name": "Blues",
+      "j_name": "Soul-RnB",
+      "full_distance": 7.571822128624533,
+      "per_group_distance": {
+        "timbre": 4.506507779787689,
+        "pitch_class": 1.5369795578874883,
+        "tonal_geometry": 1.6765730137591046,
+        "spectral_contrast": 2.2903599841867073,
+        "spectral_shape": 2.5376861500463175,
+        "noisiness": 1.021804717371995,
+        "energy": 1.8582691846093378,
+        "rhythm": 2.7270261984342845
+      }
+    },
+    {
+      "i": 0,
+      "j": 15,
+      "i_name": "Blues",
+      "j_name": "Spoken",
+      "full_distance": 7.315289716738371,
+      "per_group_distance": {
+        "timbre": 4.715322804639016,
+        "pitch_class": 1.8514106412104272,
+        "tonal_geometry": 2.891881669897466,
+        "spectral_contrast": 2.2326911974934265,
+        "spectral_shape": 1.2698031079851566,
+        "noisiness": 1.139401784589986,
+        "energy": 1.1817376244155307,
+        "rhythm": 1.8206175426773605
+      }
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "i_name": "Classical",
+      "j_name": "Country",
+      "full_distance": 15.299217240840033,
+      "per_group_distance": {
+        "timbre": 8.693675651068796,
+        "pitch_class": 4.65593485350837,
+        "tonal_geometry": 4.711868996655884,
+        "spectral_contrast": 6.556584701328856,
+        "spectral_shape": 3.773213762013677,
+        "noisiness": 1.3559646661962705,
+        "energy": 2.753983684952264,
+        "rhythm": 1.9199407961845782
+      }
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "i_name": "Classical",
+      "j_name": "Easy Listening",
+      "full_distance": 15.94946952049066,
+      "per_group_distance": {
+        "timbre": 9.955102578146139,
+        "pitch_class": 2.4443579039046712,
+        "tonal_geometry": 3.441100646665641,
+        "spectral_contrast": 6.678185680433447,
+        "spectral_shape": 4.278648633331426,
+        "noisiness": 1.3524412682169682,
+        "energy": 2.5097171383258763,
+        "rhythm": 3.8405582822415867
+      }
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "i_name": "Classical",
+      "j_name": "Electronic",
+      "full_distance": 17.482765137760566,
+      "per_group_distance": {
+        "timbre": 9.162634567406364,
+        "pitch_class": 4.548679413439759,
+        "tonal_geometry": 4.478734941383184,
+        "spectral_contrast": 7.101315676785822,
+        "spectral_shape": 4.662222961786547,
+        "noisiness": 1.4093113656801222,
+        "energy": 3.2512276706124763,
+        "rhythm": 3.4089635637934403
+      }
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "i_name": "Classical",
+      "j_name": "Experimental",
+      "full_distance": 14.81833203578468,
+      "per_group_distance": {
+        "timbre": 6.547255194251362,
+        "pitch_class": 5.869728064314696,
+        "tonal_geometry": 4.626548044426722,
+        "spectral_contrast": 6.4556670579096185,
+        "spectral_shape": 3.107408004156073,
+        "noisiness": 1.4498144618040512,
+        "energy": 1.9826510688921455,
+        "rhythm": 1.1119769723102506
+      }
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "i_name": "Classical",
+      "j_name": "Folk",
+      "full_distance": 10.21440955947745,
+      "per_group_distance": {
+        "timbre": 6.833390844546807,
+        "pitch_class": 2.3605315124942017,
+        "tonal_geometry": 2.1142875283237714,
+        "spectral_contrast": 3.994193306121283,
+        "spectral_shape": 2.362051746022872,
+        "noisiness": 0.3576104866413709,
+        "energy": 1.921608663029641,
+        "rhythm": 1.84740953693664
+      }
+    },
+    {
+      "i": 1,
+      "j": 7,
+      "i_name": "Classical",
+      "j_name": "Hip-Hop",
+      "full_distance": 18.766101578611355,
+      "per_group_distance": {
+        "timbre": 10.267408929647258,
+        "pitch_class": 4.964371366786467,
+        "tonal_geometry": 5.65950264347616,
+        "spectral_contrast": 7.44604442504638,
+        "spectral_shape": 4.698469623969578,
+        "noisiness": 1.6935108311680358,
+        "energy": 3.5459039420998786,
+        "rhythm": 3.897457105542709
+      }
+    },
+    {
+      "i": 1,
+      "j": 8,
+      "i_name": "Classical",
+      "j_name": "Instrumental",
+      "full_distance": 11.34951845016531,
+      "per_group_distance": {
+        "timbre": 5.952499455837485,
+        "pitch_class": 4.161408734363353,
+        "tonal_geometry": 2.9180531334352233,
+        "spectral_contrast": 4.426690122394504,
+        "spectral_shape": 1.099410682344409,
+        "noisiness": 0.30867759074080503,
+        "energy": 1.8659128815429822,
+        "rhythm": 1.3883506745513354
+      }
+    },
+    {
+      "i": 1,
+      "j": 9,
+      "i_name": "Classical",
+      "j_name": "International",
+      "full_distance": 13.799150120860734,
+      "per_group_distance": {
+        "timbre": 8.095314063562446,
+        "pitch_class": 4.36983504723534,
+        "tonal_geometry": 4.823450950811468,
+        "spectral_contrast": 4.376182437763007,
+        "spectral_shape": 4.02737715507356,
+        "noisiness": 2.369462957935828,
+        "energy": 1.8728481846464,
+        "rhythm": 2.682448841285735
+      }
+    },
+    {
+      "i": 1,
+      "j": 10,
+      "i_name": "Classical",
+      "j_name": "Jazz",
+      "full_distance": 9.965931819707626,
+      "per_group_distance": {
+        "timbre": 5.627332883820859,
+        "pitch_class": 1.8759465249360658,
+        "tonal_geometry": 2.4781781101243823,
+        "spectral_contrast": 4.678902890499176,
+        "spectral_shape": 2.833537871151053,
+        "noisiness": 0.7535222701455417,
+        "energy": 1.6407164616659866,
+        "rhythm": 2.0351496673899057
+      }
+    },
+    {
+      "i": 1,
+      "j": 11,
+      "i_name": "Classical",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 14.361874965205592,
+      "per_group_distance": {
+        "timbre": 10.652628090976402,
+        "pitch_class": 3.7207278553450545,
+        "tonal_geometry": 3.830749745569997,
+        "spectral_contrast": 4.54919697029326,
+        "spectral_shape": 5.183016752231182,
+        "noisiness": 2.0863706586954787,
+        "energy": 0.7684410145823442,
+        "rhythm": 1.5317566192119583
+      }
+    },
+    {
+      "i": 1,
+      "j": 12,
+      "i_name": "Classical",
+      "j_name": "Pop",
+      "full_distance": 12.838840590840796,
+      "per_group_distance": {
+        "timbre": 7.405373397528228,
+        "pitch_class": 3.670263994444396,
+        "tonal_geometry": 3.4051105388607406,
+        "spectral_contrast": 5.6097003058521295,
+        "spectral_shape": 2.810608789303771,
+        "noisiness": 0.8940534634694051,
+        "energy": 2.6287698628876024,
+        "rhythm": 1.7755111740134104
+      }
+    },
+    {
+      "i": 1,
+      "j": 13,
+      "i_name": "Classical",
+      "j_name": "Rock",
+      "full_distance": 18.088002333390172,
+      "per_group_distance": {
+        "timbre": 9.954439956412932,
+        "pitch_class": 5.17160985525655,
+        "tonal_geometry": 4.9398493871072375,
+        "spectral_contrast": 8.258432973086041,
+        "spectral_shape": 3.644476289987231,
+        "noisiness": 1.2703727964417637,
+        "energy": 2.8557464596920275,
+        "rhythm": 1.138936146630196
+      }
+    },
+    {
+      "i": 1,
+      "j": 14,
+      "i_name": "Classical",
+      "j_name": "Soul-RnB",
+      "full_distance": 17.20319624789805,
+      "per_group_distance": {
+        "timbre": 9.538150437782155,
+        "pitch_class": 3.493401523906397,
+        "tonal_geometry": 4.44156926777686,
+        "spectral_contrast": 6.834884170764332,
+        "spectral_shape": 4.934378528972767,
+        "noisiness": 1.5636401842361756,
+        "energy": 3.4138731060202856,
+        "rhythm": 4.951845335262546
+      }
+    },
+    {
+      "i": 1,
+      "j": 15,
+      "i_name": "Classical",
+      "j_name": "Spoken",
+      "full_distance": 15.062828165025664,
+      "per_group_distance": {
+        "timbre": 7.791157286441653,
+        "pitch_class": 4.494363884590357,
+        "tonal_geometry": 6.194861545997821,
+        "spectral_contrast": 6.484257862951523,
+        "spectral_shape": 3.5194121103733456,
+        "noisiness": 1.8024122221911483,
+        "energy": 1.2856872035250404,
+        "rhythm": 2.6752975483827046
+      }
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "i_name": "Country",
+      "j_name": "Easy Listening",
+      "full_distance": 9.98164324038002,
+      "per_group_distance": {
+        "timbre": 5.820850526855941,
+        "pitch_class": 4.032493513654278,
+        "tonal_geometry": 3.00087719436571,
+        "spectral_contrast": 2.920805595449912,
+        "spectral_shape": 1.1055095408194642,
+        "noisiness": 0.7401056305014927,
+        "energy": 0.8087487449207148,
+        "rhythm": 2.1865438650831894
+      }
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "i_name": "Country",
+      "j_name": "Electronic",
+      "full_distance": 8.305126851714828,
+      "per_group_distance": {
+        "timbre": 5.191033086207002,
+        "pitch_class": 1.7643541326245384,
+        "tonal_geometry": 2.195912354003634,
+        "spectral_contrast": 3.016552825646342,
+        "spectral_shape": 1.5774726641146481,
+        "noisiness": 0.7462553044088112,
+        "energy": 0.9079586998276985,
+        "rhythm": 1.8530904733228521
+      }
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "i_name": "Country",
+      "j_name": "Experimental",
+      "full_distance": 6.730284673630152,
+      "per_group_distance": {
+        "timbre": 3.783156463681155,
+        "pitch_class": 2.412480883718467,
+        "tonal_geometry": 2.030735470620595,
+        "spectral_contrast": 2.7138460323773206,
+        "spectral_shape": 0.9968166717797536,
+        "noisiness": 0.39806261619584954,
+        "energy": 0.983933656542938,
+        "rhythm": 1.9108286978721265
+      }
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "i_name": "Country",
+      "j_name": "Folk",
+      "full_distance": 8.77762887636414,
+      "per_group_distance": {
+        "timbre": 4.702358404539981,
+        "pitch_class": 3.3497442915132294,
+        "tonal_geometry": 2.8012858319987286,
+        "spectral_contrast": 3.2385778865769184,
+        "spectral_shape": 1.7273113149156096,
+        "noisiness": 1.2343839098978266,
+        "energy": 1.0270777734116896,
+        "rhythm": 0.7824351160521141
+      }
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "i_name": "Country",
+      "j_name": "Hip-Hop",
+      "full_distance": 8.24719391309198,
+      "per_group_distance": {
+        "timbre": 5.293635707403497,
+        "pitch_class": 1.7039016546152284,
+        "tonal_geometry": 2.4041350018731142,
+        "spectral_contrast": 2.1757063765254534,
+        "spectral_shape": 1.5372248145831209,
+        "noisiness": 0.8287036109372876,
+        "energy": 1.2905491714213455,
+        "rhythm": 2.243391423205824
+      }
+    },
+    {
+      "i": 2,
+      "j": 8,
+      "i_name": "Country",
+      "j_name": "Instrumental",
+      "full_distance": 8.449269242678279,
+      "per_group_distance": {
+        "timbre": 4.779035309385203,
+        "pitch_class": 2.065830356295169,
+        "tonal_geometry": 2.532560660880861,
+        "spectral_contrast": 2.849738142850934,
+        "spectral_shape": 2.7690270968293507,
+        "noisiness": 1.1184192837091904,
+        "energy": 0.9322294919478982,
+        "rhythm": 2.6255214304122445
+      }
+    },
+    {
+      "i": 2,
+      "j": 9,
+      "i_name": "Country",
+      "j_name": "International",
+      "full_distance": 9.753043039500223,
+      "per_group_distance": {
+        "timbre": 7.3159510201811875,
+        "pitch_class": 2.649948918217678,
+        "tonal_geometry": 1.5400982221924784,
+        "spectral_contrast": 3.6890779263049582,
+        "spectral_shape": 1.5290196810857426,
+        "noisiness": 1.220015357311659,
+        "energy": 1.0079014004000446,
+        "rhythm": 1.531713142542033
+      }
+    },
+    {
+      "i": 2,
+      "j": 10,
+      "i_name": "Country",
+      "j_name": "Jazz",
+      "full_distance": 8.602982033020217,
+      "per_group_distance": {
+        "timbre": 5.108624513055513,
+        "pitch_class": 3.4062639246247155,
+        "tonal_geometry": 2.7765557691645144,
+        "spectral_contrast": 2.867510013411794,
+        "spectral_shape": 1.3968854678931817,
+        "noisiness": 0.7883753004871618,
+        "energy": 1.2055193809398859,
+        "rhythm": 0.9711091558113013
+      }
+    },
+    {
+      "i": 2,
+      "j": 11,
+      "i_name": "Country",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 18.79060387905977,
+      "per_group_distance": {
+        "timbre": 13.041780073222064,
+        "pitch_class": 2.0797226384048506,
+        "tonal_geometry": 2.2089696703628037,
+        "spectral_contrast": 6.474850812061006,
+        "spectral_shape": 7.692214541475559,
+        "noisiness": 1.8698758725864768,
+        "energy": 2.1034720084573615,
+        "rhythm": 2.238887423005091
+      }
+    },
+    {
+      "i": 2,
+      "j": 12,
+      "i_name": "Country",
+      "j_name": "Pop",
+      "full_distance": 5.017501798881848,
+      "per_group_distance": {
+        "timbre": 2.926130623558919,
+        "pitch_class": 1.7389778704482408,
+        "tonal_geometry": 1.6782058380330136,
+        "spectral_contrast": 1.987908658946322,
+        "spectral_shape": 1.1905291206540447,
+        "noisiness": 0.5493024056349435,
+        "energy": 0.28687228314483737,
+        "rhythm": 0.537989753161033
+      }
+    },
+    {
+      "i": 2,
+      "j": 13,
+      "i_name": "Country",
+      "j_name": "Rock",
+      "full_distance": 5.704632807169184,
+      "per_group_distance": {
+        "timbre": 3.1986769524901804,
+        "pitch_class": 1.1938545249974917,
+        "tonal_geometry": 1.148275980628978,
+        "spectral_contrast": 2.529143255621452,
+        "spectral_shape": 0.8902907292956779,
+        "noisiness": 0.6029023404257943,
+        "energy": 0.11276280169680991,
+        "rhythm": 1.5747460460611251
+      }
+    },
+    {
+      "i": 2,
+      "j": 14,
+      "i_name": "Country",
+      "j_name": "Soul-RnB",
+      "full_distance": 8.954019757200875,
+      "per_group_distance": {
+        "timbre": 5.278346063028933,
+        "pitch_class": 2.213420712838916,
+        "tonal_geometry": 1.9523532431663755,
+        "spectral_contrast": 2.803663909529922,
+        "spectral_shape": 1.8727180784539248,
+        "noisiness": 0.7738237063413739,
+        "energy": 1.276873397642895,
+        "rhythm": 3.393940391194557
+      }
+    },
+    {
+      "i": 2,
+      "j": 15,
+      "i_name": "Country",
+      "j_name": "Spoken",
+      "full_distance": 9.960552322792248,
+      "per_group_distance": {
+        "timbre": 6.698275752901566,
+        "pitch_class": 2.438260618297286,
+        "tonal_geometry": 2.707269871413337,
+        "spectral_contrast": 3.6421463964697813,
+        "spectral_shape": 1.039740188290848,
+        "noisiness": 0.7497717130935042,
+        "energy": 2.3102993090296926,
+        "rhythm": 1.876788241234309
+      }
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "i_name": "Easy Listening",
+      "j_name": "Electronic",
+      "full_distance": 7.399951780808156,
+      "per_group_distance": {
+        "timbre": 3.8509818670401272,
+        "pitch_class": 3.666812614765145,
+        "tonal_geometry": 2.1002273135557035,
+        "spectral_contrast": 2.2382013720039695,
+        "spectral_shape": 0.9418143904159467,
+        "noisiness": 0.34281187334751834,
+        "energy": 0.7589884246199257,
+        "rhythm": 0.8160217556351806
+      }
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "i_name": "Easy Listening",
+      "j_name": "Experimental",
+      "full_distance": 10.752447237969037,
+      "per_group_distance": {
+        "timbre": 5.6465342093289745,
+        "pitch_class": 4.903945533566897,
+        "tonal_geometry": 2.458415629327664,
+        "spectral_contrast": 3.0384039313832254,
+        "spectral_shape": 1.3531221238261717,
+        "noisiness": 0.8797134280304192,
+        "energy": 0.6160284738275399,
+        "rhythm": 3.7582110406292153
+      }
+    },
+    {
+      "i": 3,
+      "j": 6,
+      "i_name": "Easy Listening",
+      "j_name": "Folk",
+      "full_distance": 10.925916064352801,
+      "per_group_distance": {
+        "timbre": 7.503571988067527,
+        "pitch_class": 2.4558972701972404,
+        "tonal_geometry": 2.4608370037029546,
+        "spectral_contrast": 4.1339115267776005,
+        "spectral_shape": 2.1123657921620485,
+        "noisiness": 1.13600945493756,
+        "energy": 0.6139803718478126,
+        "rhythm": 2.11608418609667
+      }
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "i_name": "Easy Listening",
+      "j_name": "Hip-Hop",
+      "full_distance": 7.520933960004781,
+      "per_group_distance": {
+        "timbre": 2.8134626465037593,
+        "pitch_class": 4.124418301889453,
+        "tonal_geometry": 3.0888541978549098,
+        "spectral_contrast": 2.0887507370604776,
+        "spectral_shape": 0.7856478952687063,
+        "noisiness": 0.49553898683471326,
+        "energy": 1.048062758687284,
+        "rhythm": 1.0803587199305154
+      }
+    },
+    {
+      "i": 3,
+      "j": 8,
+      "i_name": "Easy Listening",
+      "j_name": "Instrumental",
+      "full_distance": 12.177593994432382,
+      "per_group_distance": {
+        "timbre": 7.366334443582558,
+        "pitch_class": 3.4342996170695277,
+        "tonal_geometry": 1.875964704876811,
+        "spectral_contrast": 3.594232867487967,
+        "spectral_shape": 3.2568535325259904,
+        "noisiness": 1.064746339930532,
+        "energy": 0.7984169608875825,
+        "rhythm": 4.61792195990027
+      }
+    },
+    {
+      "i": 3,
+      "j": 9,
+      "i_name": "Easy Listening",
+      "j_name": "International",
+      "full_distance": 12.245350076438196,
+      "per_group_distance": {
+        "timbre": 7.96886792971299,
+        "pitch_class": 4.215346387563126,
+        "tonal_geometry": 3.1263588172955554,
+        "spectral_contrast": 4.588515233016044,
+        "spectral_shape": 2.3006026617584303,
+        "noisiness": 1.8080297820197169,
+        "energy": 0.7824877162216374,
+        "rhythm": 2.190873036244178
+      }
+    },
+    {
+      "i": 3,
+      "j": 10,
+      "i_name": "Easy Listening",
+      "j_name": "Jazz",
+      "full_distance": 8.34065295537117,
+      "per_group_distance": {
+        "timbre": 5.798412751045894,
+        "pitch_class": 2.032262623331601,
+        "tonal_geometry": 2.0286756657082607,
+        "spectral_contrast": 2.899820161582385,
+        "spectral_shape": 1.5330512158707021,
+        "noisiness": 0.6367890502211738,
+        "energy": 0.9180437138093481,
+        "rhythm": 1.9591540345226606
+      }
+    },
+    {
+      "i": 3,
+      "j": 11,
+      "i_name": "Easy Listening",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 22.40823422506362,
+      "per_group_distance": {
+        "timbre": 15.88569273950601,
+        "pitch_class": 3.255838853414504,
+        "tonal_geometry": 3.017049414262174,
+        "spectral_contrast": 7.1950486162895455,
+        "spectral_shape": 8.319300793912722,
+        "noisiness": 2.441266763774017,
+        "energy": 1.7812050398135448,
+        "rhythm": 4.276199021443374
+      }
+    },
+    {
+      "i": 3,
+      "j": 12,
+      "i_name": "Easy Listening",
+      "j_name": "Pop",
+      "full_distance": 8.36793367281981,
+      "per_group_distance": {
+        "timbre": 5.15967588708171,
+        "pitch_class": 2.8959566802171066,
+        "tonal_geometry": 1.9866555183422692,
+        "spectral_contrast": 3.061772264557378,
+        "spectral_shape": 1.5278050102721616,
+        "noisiness": 0.5898983753393096,
+        "energy": 0.5703913426215115,
+        "rhythm": 2.2746963677277168
+      }
+    },
+    {
+      "i": 3,
+      "j": 13,
+      "i_name": "Easy Listening",
+      "j_name": "Rock",
+      "full_distance": 12.007116242776128,
+      "per_group_distance": {
+        "timbre": 7.4108971079002925,
+        "pitch_class": 4.450626711166804,
+        "tonal_geometry": 2.8870656948897246,
+        "spectral_contrast": 3.9391454323069937,
+        "spectral_shape": 1.4137513422356387,
+        "noisiness": 1.0110431647912843,
+        "energy": 0.8481409947176156,
+        "rhythm": 3.5706035675498606
+      }
+    },
+    {
+      "i": 3,
+      "j": 14,
+      "i_name": "Easy Listening",
+      "j_name": "Soul-RnB",
+      "full_distance": 6.04889850076542,
+      "per_group_distance": {
+        "timbre": 3.2631661366089726,
+        "pitch_class": 2.6235709902246915,
+        "tonal_geometry": 2.045899284439048,
+        "spectral_contrast": 1.9528974244047959,
+        "spectral_shape": 1.1423760697509504,
+        "noisiness": 0.36933517518366915,
+        "energy": 0.9294780224526316,
+        "rhythm": 1.5198283375744663
+      }
+    },
+    {
+      "i": 3,
+      "j": 15,
+      "i_name": "Easy Listening",
+      "j_name": "Spoken",
+      "full_distance": 10.253732486835247,
+      "per_group_distance": {
+        "timbre": 6.43174226379235,
+        "pitch_class": 3.570464484474639,
+        "tonal_geometry": 3.8487572597433237,
+        "spectral_contrast": 3.3430990989950877,
+        "spectral_shape": 1.0603663875963503,
+        "noisiness": 0.7286346726304459,
+        "energy": 1.7700011956224622,
+        "rhythm": 2.455007910093563
+      }
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "i_name": "Electronic",
+      "j_name": "Experimental",
+      "full_distance": 7.050909450599328,
+      "per_group_distance": {
+        "timbre": 4.013319257763492,
+        "pitch_class": 1.6755926825303509,
+        "tonal_geometry": 0.823153632473504,
+        "spectral_contrast": 1.9561518594357168,
+        "spectral_shape": 1.7272528809037653,
+        "noisiness": 0.745617125800443,
+        "energy": 1.3187165551690754,
+        "rhythm": 3.208158287927756
+      }
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "i_name": "Electronic",
+      "j_name": "Folk",
+      "full_distance": 11.48475852721187,
+      "per_group_distance": {
+        "timbre": 6.512929716531581,
+        "pitch_class": 3.211775954046626,
+        "tonal_geometry": 2.9356144742196952,
+        "spectral_contrast": 4.5024735993501945,
+        "spectral_shape": 2.6664080203903797,
+        "noisiness": 1.195268253325771,
+        "energy": 1.3517246177471316,
+        "rhythm": 1.7800633534032584
+      }
+    },
+    {
+      "i": 4,
+      "j": 7,
+      "i_name": "Electronic",
+      "j_name": "Hip-Hop",
+      "full_distance": 4.0427345691888235,
+      "per_group_distance": {
+        "timbre": 2.6544899477071158,
+        "pitch_class": 0.870126186818528,
+        "tonal_geometry": 1.3159457200584799,
+        "spectral_contrast": 1.7454798484194995,
+        "spectral_shape": 0.5847943593468008,
+        "noisiness": 0.3093983269250979,
+        "energy": 0.4126490473465868,
+        "rhythm": 0.9146668155034955
+      }
+    },
+    {
+      "i": 4,
+      "j": 8,
+      "i_name": "Electronic",
+      "j_name": "Instrumental",
+      "full_distance": 10.52731266149623,
+      "per_group_distance": {
+        "timbre": 5.938761268486831,
+        "pitch_class": 1.196853808110054,
+        "tonal_geometry": 1.8321820250769896,
+        "spectral_contrast": 3.3897912988954184,
+        "spectral_shape": 3.6705145408707414,
+        "noisiness": 1.1175058123159578,
+        "energy": 1.454994257784614,
+        "rhythm": 4.086820909078029
+      }
+    },
+    {
+      "i": 4,
+      "j": 9,
+      "i_name": "Electronic",
+      "j_name": "International",
+      "full_distance": 11.990996953617593,
+      "per_group_distance": {
+        "timbre": 8.214926370331805,
+        "pitch_class": 2.64976470402166,
+        "tonal_geometry": 2.147865721662839,
+        "spectral_contrast": 4.776668675029419,
+        "spectral_shape": 2.5936297765984815,
+        "noisiness": 1.7604580332790263,
+        "energy": 1.4356769968610246,
+        "rhythm": 1.6259201424602552
+      }
+    },
+    {
+      "i": 4,
+      "j": 10,
+      "i_name": "Electronic",
+      "j_name": "Jazz",
+      "full_distance": 9.125638277922796,
+      "per_group_distance": {
+        "timbre": 4.610881564717218,
+        "pitch_class": 3.344270918144081,
+        "tonal_geometry": 2.4283572107945175,
+        "spectral_contrast": 2.8321642780108593,
+        "spectral_shape": 1.9601226782369503,
+        "noisiness": 0.6877887244659512,
+        "energy": 1.6397314836637538,
+        "rhythm": 1.5648842774117593
+      }
+    },
+    {
+      "i": 4,
+      "j": 11,
+      "i_name": "Electronic",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 22.811173332867522,
+      "per_group_distance": {
+        "timbre": 15.526613965949979,
+        "pitch_class": 2.0115830162604986,
+        "tonal_geometry": 2.65909521119941,
+        "spectral_contrast": 7.423724436237032,
+        "spectral_shape": 8.569777063664919,
+        "noisiness": 2.4697132526140737,
+        "energy": 2.530640228572858,
+        "rhythm": 3.8628731989335487
+      }
+    },
+    {
+      "i": 4,
+      "j": 12,
+      "i_name": "Electronic",
+      "j_name": "Pop",
+      "full_distance": 7.025914574734909,
+      "per_group_distance": {
+        "timbre": 4.102222807536615,
+        "pitch_class": 1.2416728157471641,
+        "tonal_geometry": 1.6206049854006679,
+        "spectral_contrast": 2.5487623680032336,
+        "spectral_shape": 2.044216365562267,
+        "noisiness": 0.6418167237608695,
+        "energy": 0.8025531456918593,
+        "rhythm": 1.7902680787365317
+      }
+    },
+    {
+      "i": 4,
+      "j": 13,
+      "i_name": "Electronic",
+      "j_name": "Rock",
+      "full_distance": 8.69698669875431,
+      "per_group_distance": {
+        "timbre": 6.269064599137387,
+        "pitch_class": 1.4566917651253735,
+        "tonal_geometry": 1.4350317991991717,
+        "spectral_contrast": 3.2937340985669237,
+        "spectral_shape": 1.9616818105938094,
+        "noisiness": 1.064121728065023,
+        "energy": 0.8583009052616947,
+        "rhythm": 3.0642208264822943
+      }
+    },
+    {
+      "i": 4,
+      "j": 14,
+      "i_name": "Electronic",
+      "j_name": "Soul-RnB",
+      "full_distance": 4.706345984029945,
+      "per_group_distance": {
+        "timbre": 2.360630047265261,
+        "pitch_class": 1.7181222673000913,
+        "tonal_geometry": 1.0476408057675675,
+        "spectral_contrast": 1.6600788351978732,
+        "spectral_shape": 0.5406452306183431,
+        "noisiness": 0.2875667973545659,
+        "energy": 0.41582630633080286,
+        "rhythm": 1.6560916058316755
+      }
+    },
+    {
+      "i": 4,
+      "j": 15,
+      "i_name": "Electronic",
+      "j_name": "Spoken",
+      "full_distance": 9.60912138837311,
+      "per_group_distance": {
+        "timbre": 6.26863091155235,
+        "pitch_class": 2.366605023310015,
+        "tonal_geometry": 2.5231800966304374,
+        "spectral_contrast": 2.4277171233332027,
+        "spectral_shape": 1.4188702435638643,
+        "noisiness": 0.5176153977661001,
+        "energy": 2.5035162754915143,
+        "rhythm": 1.9500369019680828
+      }
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "i_name": "Experimental",
+      "j_name": "Folk",
+      "full_distance": 10.012612013195406,
+      "per_group_distance": {
+        "timbre": 4.294267754759763,
+        "pitch_class": 4.449215194713067,
+        "tonal_geometry": 3.0107758052620053,
+        "spectral_contrast": 4.145824412335147,
+        "spectral_shape": 1.2775998568701132,
+        "noisiness": 1.3647176108506098,
+        "energy": 0.2607415278815105,
+        "rhythm": 2.0017587541298996
+      }
+    },
+    {
+      "i": 5,
+      "j": 7,
+      "i_name": "Experimental",
+      "j_name": "Hip-Hop",
+      "full_distance": 8.264869795120237,
+      "per_group_distance": {
+        "timbre": 5.156023229301709,
+        "pitch_class": 1.6669979645877924,
+        "tonal_geometry": 1.3938575099511195,
+        "spectral_contrast": 2.308155052730903,
+        "spectral_shape": 1.7010046438723225,
+        "noisiness": 0.8058929849258166,
+        "energy": 1.6240163678045603,
+        "rhythm": 3.6500030875960854
+      }
+    },
+    {
+      "i": 5,
+      "j": 8,
+      "i_name": "Experimental",
+      "j_name": "Instrumental",
+      "full_distance": 6.2799873747383,
+      "per_group_distance": {
+        "timbre": 2.6877435318451717,
+        "pitch_class": 2.1815976269097614,
+        "tonal_geometry": 1.9538399138557854,
+        "spectral_contrast": 2.283900411801857,
+        "spectral_shape": 2.0959195565270967,
+        "noisiness": 1.2102330040349003,
+        "energy": 0.40005089832003576,
+        "rhythm": 1.0582203669350512
+      }
+    },
+    {
+      "i": 5,
+      "j": 9,
+      "i_name": "Experimental",
+      "j_name": "International",
+      "full_distance": 10.716940855009518,
+      "per_group_distance": {
+        "timbre": 7.284684033372296,
+        "pitch_class": 3.1827725896250354,
+        "tonal_geometry": 2.0883509988842994,
+        "spectral_contrast": 4.475311009185465,
+        "spectral_shape": 1.8010964293939868,
+        "noisiness": 1.2592460461422597,
+        "energy": 0.5034863733912117,
+        "rhythm": 2.125559255035245
+      }
+    },
+    {
+      "i": 5,
+      "j": 10,
+      "i_name": "Experimental",
+      "j_name": "Jazz",
+      "full_distance": 8.746457855747941,
+      "per_group_distance": {
+        "timbre": 3.2624062497124386,
+        "pitch_class": 4.555012720406432,
+        "tonal_geometry": 2.474181642019739,
+        "spectral_contrast": 2.8317674548300515,
+        "spectral_shape": 0.8643853232107124,
+        "noisiness": 0.8956798735151014,
+        "energy": 0.4530110785030206,
+        "rhythm": 2.1167668832427418
+      }
+    },
+    {
+      "i": 5,
+      "j": 11,
+      "i_name": "Experimental",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 18.52897597164728,
+      "per_group_distance": {
+        "timbre": 12.418989350069964,
+        "pitch_class": 2.8412596978529825,
+        "tonal_geometry": 2.6297200259289615,
+        "spectral_contrast": 6.365751662620143,
+        "spectral_shape": 7.066809821687613,
+        "noisiness": 1.9800426139951963,
+        "energy": 1.280623017142283,
+        "rhythm": 1.2405175035486815
+      }
+    },
+    {
+      "i": 5,
+      "j": 12,
+      "i_name": "Experimental",
+      "j_name": "Pop",
+      "full_distance": 5.38104923774898,
+      "per_group_distance": {
+        "timbre": 2.142853387600341,
+        "pitch_class": 2.5045480298109433,
+        "tonal_geometry": 1.6417802510055317,
+        "spectral_contrast": 2.000080889476992,
+        "spectral_shape": 0.7053331325554697,
+        "noisiness": 0.7209099502596347,
+        "energy": 0.8009805273511696,
+        "rhythm": 1.6068717679106956
+      }
+    },
+    {
+      "i": 5,
+      "j": 13,
+      "i_name": "Experimental",
+      "j_name": "Rock",
+      "full_distance": 6.452054632099491,
+      "per_group_distance": {
+        "timbre": 4.589919233087517,
+        "pitch_class": 1.6118877642047813,
+        "tonal_geometry": 1.3321637961123254,
+        "spectral_contrast": 2.6667522585853276,
+        "spectral_shape": 0.9929063364300668,
+        "noisiness": 0.7143525196029888,
+        "energy": 1.0599554676565803,
+        "rhythm": 0.755484947476182
+      }
+    },
+    {
+      "i": 5,
+      "j": 14,
+      "i_name": "Experimental",
+      "j_name": "Soul-RnB",
+      "full_distance": 9.537559948544134,
+      "per_group_distance": {
+        "timbre": 4.963630387080396,
+        "pitch_class": 2.8238820487646565,
+        "tonal_geometry": 1.3069886182825603,
+        "spectral_contrast": 2.956475665129286,
+        "spectral_shape": 2.1033784006211675,
+        "noisiness": 0.8404094554048425,
+        "energy": 1.5085863530714623,
+        "rhythm": 4.801742707021498
+      }
+    },
+    {
+      "i": 5,
+      "j": 15,
+      "i_name": "Experimental",
+      "j_name": "Spoken",
+      "full_distance": 8.74540557443036,
+      "per_group_distance": {
+        "timbre": 5.415921737030634,
+        "pitch_class": 2.796810034263015,
+        "tonal_geometry": 2.1961130691889146,
+        "spectral_contrast": 2.219837187591427,
+        "spectral_shape": 0.8491176952580586,
+        "noisiness": 0.683532929797659,
+        "energy": 1.3652759895754947,
+        "rhythm": 2.187115998779048
+      }
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "i_name": "Folk",
+      "j_name": "Hip-Hop",
+      "full_distance": 12.344640198580684,
+      "per_group_distance": {
+        "timbre": 7.018239882192957,
+        "pitch_class": 3.6464694641335043,
+        "tonal_geometry": 3.97663770852389,
+        "spectral_contrast": 4.488133494933353,
+        "spectral_shape": 2.6089943380392513,
+        "noisiness": 1.4872979126303114,
+        "energy": 1.6563643381739521,
+        "rhythm": 2.23335349742248
+      }
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "i_name": "Folk",
+      "j_name": "Instrumental",
+      "full_distance": 7.654509456644934,
+      "per_group_distance": {
+        "timbre": 4.174048528885109,
+        "pitch_class": 2.651990564790536,
+        "tonal_geometry": 1.5240313741159626,
+        "spectral_contrast": 2.449640877927129,
+        "spectral_shape": 1.4644966917598474,
+        "noisiness": 0.2674040313550784,
+        "energy": 0.34763162108148415,
+        "rhythm": 2.8356938835158214
+      }
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "i_name": "Folk",
+      "j_name": "International",
+      "full_distance": 10.09151407788854,
+      "per_group_distance": {
+        "timbre": 7.031317480074506,
+        "pitch_class": 3.2664287440811592,
+        "tonal_geometry": 2.9877776596804813,
+        "spectral_contrast": 1.9734750235940584,
+        "spectral_shape": 2.522707496481518,
+        "noisiness": 2.301247499592269,
+        "energy": 0.40060013494155067,
+        "rhythm": 1.5570851065868287
+      }
+    },
+    {
+      "i": 6,
+      "j": 10,
+      "i_name": "Folk",
+      "j_name": "Jazz",
+      "full_distance": 6.217020383174121,
+      "per_group_distance": {
+        "timbre": 4.6120539941935785,
+        "pitch_class": 1.5810345963228885,
+        "tonal_geometry": 1.3394646944684987,
+        "spectral_contrast": 2.073817959695955,
+        "spectral_shape": 0.8728323478039733,
+        "noisiness": 0.5613488487589434,
+        "energy": 0.3243610744454013,
+        "rhythm": 0.32484647937769195
+      }
+    },
+    {
+      "i": 6,
+      "j": 11,
+      "i_name": "Folk",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 17.41969157156886,
+      "per_group_distance": {
+        "timbre": 12.963524199431363,
+        "pitch_class": 2.838810815868999,
+        "tonal_geometry": 2.405218988402981,
+        "spectral_contrast": 4.672725569489898,
+        "spectral_shape": 6.947679498270391,
+        "noisiness": 2.198629104663536,
+        "energy": 1.191662741075911,
+        "rhythm": 2.4782364801407124
+      }
+    },
+    {
+      "i": 6,
+      "j": 12,
+      "i_name": "Folk",
+      "j_name": "Pop",
+      "full_distance": 6.495948894650059,
+      "per_group_distance": {
+        "timbre": 3.6789239362873145,
+        "pitch_class": 2.4711632336196647,
+        "tonal_geometry": 1.6795664138644735,
+        "spectral_contrast": 2.5923001215283854,
+        "spectral_shape": 0.700180475573553,
+        "noisiness": 0.7158957316772214,
+        "energy": 0.8279808436986549,
+        "rhythm": 0.7925193826818653
+      }
+    },
+    {
+      "i": 6,
+      "j": 13,
+      "i_name": "Folk",
+      "j_name": "Rock",
+      "full_distance": 11.70339042885632,
+      "per_group_distance": {
+        "timbre": 6.10243168029681,
+        "pitch_class": 3.7796892963938773,
+        "tonal_geometry": 3.0578782401681073,
+        "spectral_contrast": 5.309058330299359,
+        "spectral_shape": 1.649887579904217,
+        "noisiness": 1.2770571295772175,
+        "energy": 1.1141103523331428,
+        "rhythm": 1.8702729950206867
+      }
+    },
+    {
+      "i": 6,
+      "j": 14,
+      "i_name": "Folk",
+      "j_name": "Soul-RnB",
+      "full_distance": 11.118799758728448,
+      "per_group_distance": {
+        "timbre": 6.460746166293739,
+        "pitch_class": 2.3984353771619857,
+        "tonal_geometry": 2.840863491449196,
+        "spectral_contrast": 3.9975295786236904,
+        "spectral_shape": 2.9214691170833107,
+        "noisiness": 1.3211791085420863,
+        "energy": 1.5235462028297764,
+        "rhythm": 3.2703645517111375
+      }
+    },
+    {
+      "i": 6,
+      "j": 15,
+      "i_name": "Folk",
+      "j_name": "Spoken",
+      "full_distance": 10.553022003495792,
+      "per_group_distance": {
+        "timbre": 5.339616126628111,
+        "pitch_class": 3.3432961135612373,
+        "tonal_geometry": 4.527542272185918,
+        "spectral_contrast": 4.218702240078754,
+        "spectral_shape": 1.4144347579779333,
+        "noisiness": 1.6069796210658676,
+        "energy": 1.302596095237119,
+        "rhythm": 1.5950642116885496
+      }
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "i_name": "Hip-Hop",
+      "j_name": "Instrumental",
+      "full_distance": 11.995451993488496,
+      "per_group_distance": {
+        "timbre": 7.019089489803648,
+        "pitch_class": 1.8440155917176224,
+        "tonal_geometry": 3.0211800006074387,
+        "spectral_contrast": 3.597120587352693,
+        "spectral_shape": 3.698993777273632,
+        "noisiness": 1.4073232294189089,
+        "energy": 1.8090145840236553,
+        "rhythm": 4.496638939100232
+      }
+    },
+    {
+      "i": 7,
+      "j": 9,
+      "i_name": "Hip-Hop",
+      "j_name": "International",
+      "full_distance": 11.938873260426606,
+      "per_group_distance": {
+        "timbre": 8.303394021527344,
+        "pitch_class": 2.615528246360201,
+        "tonal_geometry": 2.1605785242381064,
+        "spectral_contrast": 4.764609044201776,
+        "spectral_shape": 2.474763905119898,
+        "noisiness": 1.6674267938183038,
+        "energy": 1.7845410489626798,
+        "rhythm": 1.8585225487199286
+      }
+    },
+    {
+      "i": 7,
+      "j": 10,
+      "i_name": "Hip-Hop",
+      "j_name": "Jazz",
+      "full_distance": 10.42916822009935,
+      "per_group_distance": {
+        "timbre": 5.795308094054684,
+        "pitch_class": 3.7563492683579383,
+        "tonal_geometry": 3.5716928411368887,
+        "spectral_contrast": 3.270522801635781,
+        "spectral_shape": 2.016505408619059,
+        "noisiness": 0.977726787559214,
+        "energy": 1.9629205994608783,
+        "rhythm": 2.0364034510782996
+      }
+    },
+    {
+      "i": 7,
+      "j": 11,
+      "i_name": "Hip-Hop",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 23.355537030499644,
+      "per_group_distance": {
+        "timbre": 16.205863523991137,
+        "pitch_class": 2.000872833392487,
+        "tonal_geometry": 3.089906802980515,
+        "spectral_contrast": 7.495941872690402,
+        "spectral_shape": 8.602224613019255,
+        "noisiness": 2.558845571969731,
+        "energy": 2.819397435061652,
+        "rhythm": 4.2439199710724695
+      }
+    },
+    {
+      "i": 7,
+      "j": 12,
+      "i_name": "Hip-Hop",
+      "j_name": "Pop",
+      "full_distance": 7.9307141283314815,
+      "per_group_distance": {
+        "timbre": 4.64986833426536,
+        "pitch_class": 1.6585590959132286,
+        "tonal_geometry": 2.53564893884321,
+        "spectral_contrast": 2.607168227299345,
+        "spectral_shape": 2.0186306314120532,
+        "noisiness": 0.8950363658007453,
+        "energy": 1.2006057449576248,
+        "rhythm": 2.2946245072681344
+      }
+    },
+    {
+      "i": 7,
+      "j": 13,
+      "i_name": "Hip-Hop",
+      "j_name": "Rock",
+      "full_distance": 9.033602921499893,
+      "per_group_distance": {
+        "timbre": 6.744029769277339,
+        "pitch_class": 1.1692534581735143,
+        "tonal_geometry": 1.4486958031610235,
+        "spectral_contrast": 2.5912400960772506,
+        "spectral_shape": 1.7567674633046575,
+        "noisiness": 1.1422078682134973,
+        "energy": 1.2357623177876853,
+        "rhythm": 3.5501963886486263
+      }
+    },
+    {
+      "i": 7,
+      "j": 14,
+      "i_name": "Hip-Hop",
+      "j_name": "Soul-RnB",
+      "full_distance": 5.09149150654292,
+      "per_group_distance": {
+        "timbre": 2.5574862683470525,
+        "pitch_class": 2.0382959783565573,
+        "tonal_geometry": 1.6760272402375653,
+        "spectral_contrast": 2.1817994400328287,
+        "spectral_shape": 0.9481191732290438,
+        "noisiness": 0.36049210484742644,
+        "energy": 0.2559451432012398,
+        "rhythm": 1.4691525105666838
+      }
+    },
+    {
+      "i": 7,
+      "j": 15,
+      "i_name": "Hip-Hop",
+      "j_name": "Spoken",
+      "full_distance": 9.398904023081588,
+      "per_group_distance": {
+        "timbre": 6.375286495057243,
+        "pitch_class": 2.3847570295946197,
+        "tonal_geometry": 1.9272439304327162,
+        "spectral_contrast": 2.9303011805333625,
+        "spectral_shape": 1.35332436281222,
+        "noisiness": 0.32812684380945045,
+        "energy": 2.697510034964644,
+        "rhythm": 2.223377974484335
+      }
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "i_name": "Instrumental",
+      "j_name": "International",
+      "full_distance": 11.5564652000139,
+      "per_group_distance": {
+        "timbre": 8.280191314435799,
+        "pitch_class": 2.526538563047536,
+        "tonal_geometry": 2.6518732578921465,
+        "spectral_contrast": 3.039357503551211,
+        "spectral_shape": 3.1754113018239636,
+        "noisiness": 2.2090327199984126,
+        "energy": 0.2512705643706027,
+        "rhythm": 3.082253638007382
+      }
+    },
+    {
+      "i": 8,
+      "j": 10,
+      "i_name": "Instrumental",
+      "j_name": "Jazz",
+      "full_distance": 8.217505587116744,
+      "per_group_distance": {
+        "timbre": 4.300040011234893,
+        "pitch_class": 3.034661104787495,
+        "tonal_geometry": 1.2916563857200913,
+        "spectral_contrast": 1.9567499204682013,
+        "spectral_shape": 1.8625330844399148,
+        "noisiness": 0.4510562244222712,
+        "energy": 0.29864473754884935,
+        "rhythm": 2.9910112865026544
+      }
+    },
+    {
+      "i": 8,
+      "j": 11,
+      "i_name": "Instrumental",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 16.551494219463475,
+      "per_group_distance": {
+        "timbre": 12.008553910117183,
+        "pitch_class": 2.239623114780982,
+        "tonal_geometry": 2.5753129946418096,
+        "spectral_contrast": 4.724829217246801,
+        "spectral_shape": 5.684782419080162,
+        "noisiness": 2.13912144869086,
+        "energy": 1.1863880772690285,
+        "rhythm": 1.3786586879540732
+      }
+    },
+    {
+      "i": 8,
+      "j": 12,
+      "i_name": "Instrumental",
+      "j_name": "Pop",
+      "full_distance": 6.185232530547699,
+      "per_group_distance": {
+        "timbre": 3.4571727725987036,
+        "pitch_class": 1.4055981118314427,
+        "tonal_geometry": 1.2284473811029537,
+        "spectral_contrast": 1.8562505076881062,
+        "spectral_shape": 1.8402411791552573,
+        "noisiness": 0.6204481982175141,
+        "energy": 0.7718470378865059,
+        "rhythm": 2.433270867357864
+      }
+    },
+    {
+      "i": 8,
+      "j": 13,
+      "i_name": "Instrumental",
+      "j_name": "Rock",
+      "full_distance": 9.180194367644626,
+      "per_group_distance": {
+        "timbre": 5.05553406597949,
+        "pitch_class": 2.0479270713931808,
+        "tonal_geometry": 2.4454908520224308,
+        "spectral_contrast": 4.0192325517579555,
+        "spectral_shape": 2.6772007898269328,
+        "noisiness": 1.1210082090240212,
+        "energy": 1.0291263443150003,
+        "rhythm": 1.226467992057334
+      }
+    },
+    {
+      "i": 8,
+      "j": 14,
+      "i_name": "Instrumental",
+      "j_name": "Soul-RnB",
+      "full_distance": 12.237512707307143,
+      "per_group_distance": {
+        "timbre": 6.799503611341634,
+        "pitch_class": 1.9148102951133443,
+        "tonal_geometry": 2.083024649010961,
+        "spectral_contrast": 3.6383248029622424,
+        "spectral_shape": 3.9475971039230076,
+        "noisiness": 1.2642898601758494,
+        "energy": 1.6979608859039796,
+        "rhythm": 5.654128118167559
+      }
+    },
+    {
+      "i": 8,
+      "j": 15,
+      "i_name": "Instrumental",
+      "j_name": "Spoken",
+      "full_distance": 11.39232422809788,
+      "per_group_distance": {
+        "timbre": 6.619333333670678,
+        "pitch_class": 2.7948728091607618,
+        "tonal_geometry": 3.84566630732335,
+        "spectral_contrast": 3.111385437219438,
+        "spectral_shape": 2.5617305045829832,
+        "noisiness": 1.5272895991862663,
+        "energy": 1.4864200053834968,
+        "rhythm": 3.219696139618917
+      }
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "i_name": "International",
+      "j_name": "Jazz",
+      "full_distance": 10.262364700393272,
+      "per_group_distance": {
+        "timbre": 7.097285646099537,
+        "pitch_class": 3.5750941886050356,
+        "tonal_geometry": 3.0962379168299914,
+        "spectral_contrast": 2.8761670657344083,
+        "spectral_shape": 2.456690073243114,
+        "noisiness": 1.9554645368141461,
+        "energy": 0.36269905333272096,
+        "rhythm": 1.4476586080403078
+      }
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "i_name": "International",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 16.60952872886212,
+      "per_group_distance": {
+        "timbre": 12.14853090870037,
+        "pitch_class": 2.0243433142699496,
+        "tonal_geometry": 1.9022612101808616,
+        "spectral_contrast": 4.323656839550129,
+        "spectral_shape": 7.161992207274985,
+        "noisiness": 1.5822255708768471,
+        "energy": 1.1947292604523394,
+        "rhythm": 2.6963226045377477
+      }
+    },
+    {
+      "i": 9,
+      "j": 12,
+      "i_name": "International",
+      "j_name": "Pop",
+      "full_distance": 9.188013302642887,
+      "per_group_distance": {
+        "timbre": 6.926650432520763,
+        "pitch_class": 2.345205990234277,
+        "tonal_geometry": 1.9539527972098032,
+        "spectral_contrast": 3.0863690443538236,
+        "spectral_shape": 2.1557069130979216,
+        "noisiness": 1.7103079367527916,
+        "energy": 0.807995647079267,
+        "rhythm": 1.2721178960312804
+      }
+    },
+    {
+      "i": 9,
+      "j": 13,
+      "i_name": "International",
+      "j_name": "Rock",
+      "full_distance": 12.74153783742103,
+      "per_group_distance": {
+        "timbre": 9.539737186204407,
+        "pitch_class": 2.519892106368498,
+        "tonal_geometry": 1.4536721420917527,
+        "spectral_contrast": 5.4636054441298345,
+        "spectral_shape": 1.4078762385131136,
+        "noisiness": 1.2923045838594105,
+        "energy": 1.1026476735306139,
+        "rhythm": 2.1725260964655955
+      }
+    },
+    {
+      "i": 9,
+      "j": 14,
+      "i_name": "International",
+      "j_name": "Soul-RnB",
+      "full_distance": 11.746448043213856,
+      "per_group_distance": {
+        "timbre": 8.025213886018289,
+        "pitch_class": 2.553389346058307,
+        "tonal_geometry": 2.0707819796800235,
+        "spectral_contrast": 4.306274871995833,
+        "spectral_shape": 3.0048585298443755,
+        "noisiness": 1.7551842230722627,
+        "energy": 1.668617119505883,
+        "rhythm": 3.0586818615036817
+      }
+    },
+    {
+      "i": 9,
+      "j": 15,
+      "i_name": "International",
+      "j_name": "Spoken",
+      "full_distance": 10.403366951992824,
+      "per_group_distance": {
+        "timbre": 6.748515718429662,
+        "pitch_class": 3.165196437368735,
+        "tonal_geometry": 2.9504538332831793,
+        "spectral_contrast": 4.504246395904402,
+        "spectral_shape": 2.05134537251264,
+        "noisiness": 1.4113226223235642,
+        "energy": 1.4926190371469235,
+        "rhythm": 0.8928702958237285
+      }
+    },
+    {
+      "i": 10,
+      "j": 11,
+      "i_name": "Jazz",
+      "j_name": "Old-Time / Historic",
+      "full_distance": 18.23516087473142,
+      "per_group_distance": {
+        "timbre": 13.384546866285687,
+        "pitch_class": 2.627819287832471,
+        "tonal_geometry": 2.67606699314424,
+        "spectral_contrast": 5.477877159770309,
+        "spectral_shape": 7.280036467752713,
+        "noisiness": 2.2053187871717164,
+        "energy": 0.9232135466313859,
+        "rhythm": 2.699842887413804
+      }
+    },
+    {
+      "i": 10,
+      "j": 12,
+      "i_name": "Jazz",
+      "j_name": "Pop",
+      "full_distance": 6.0370704210048896,
+      "per_group_distance": {
+        "timbre": 3.7212052891001948,
+        "pitch_class": 2.5975893816343087,
+        "tonal_geometry": 1.5083149206540745,
+        "spectral_contrast": 1.7946769066233763,
+        "spectral_shape": 0.4468168706675379,
+        "noisiness": 0.25889744831876366,
+        "energy": 1.0302231766711902,
+        "rhythm": 0.8905074935288827
+      }
+    },
+    {
+      "i": 10,
+      "j": 13,
+      "i_name": "Jazz",
+      "j_name": "Rock",
+      "full_distance": 11.294936826154531,
+      "per_group_distance": {
+        "timbre": 6.436736206874119,
+        "pitch_class": 3.8678375985160818,
+        "tonal_geometry": 2.801310473240186,
+        "spectral_contrast": 4.525613337706652,
+        "spectral_shape": 1.5576759729536704,
+        "noisiness": 0.9552820490589901,
+        "energy": 1.3017670058719062,
+        "rhythm": 2.041677043698375
+      }
+    },
+    {
+      "i": 10,
+      "j": 14,
+      "i_name": "Jazz",
+      "j_name": "Soul-RnB",
+      "full_distance": 8.39135270219271,
+      "per_group_distance": {
+        "timbre": 4.751314629712251,
+        "pitch_class": 2.1942126947904463,
+        "tonal_geometry": 2.212995539681612,
+        "spectral_contrast": 2.4547628608581884,
+        "spectral_shape": 2.182872313605356,
+        "noisiness": 0.8160108027336204,
+        "energy": 1.8306701406745967,
+        "rhythm": 3.033253655381971
+      }
+    },
+    {
+      "i": 10,
+      "j": 15,
+      "i_name": "Jazz",
+      "j_name": "Spoken",
+      "full_distance": 9.168365947470416,
+      "per_group_distance": {
+        "timbre": 6.0251146397488275,
+        "pitch_class": 2.9853242824755,
+        "tonal_geometry": 4.0185498215248305,
+        "spectral_contrast": 2.857980032998329,
+        "spectral_shape": 0.924218132676282,
+        "noisiness": 1.1103477398510417,
+        "energy": 1.2042529120985013,
+        "rhythm": 1.45980066476272
+      }
+    },
+    {
+      "i": 11,
+      "j": 12,
+      "i_name": "Old-Time / Historic",
+      "j_name": "Pop",
+      "full_distance": 18.166607986346644,
+      "per_group_distance": {
+        "timbre": 13.24712098930516,
+        "pitch_class": 1.5910274786907208,
+        "tonal_geometry": 1.8747918613989973,
+        "spectral_contrast": 5.678163998425387,
+        "spectral_shape": 7.183370859121203,
+        "noisiness": 2.0374399410264683,
+        "energy": 1.9477779001918802,
+        "rhythm": 2.1365723745815295
+      }
+    },
+    {
+      "i": 11,
+      "j": 13,
+      "i_name": "Old-Time / Historic",
+      "j_name": "Rock",
+      "full_distance": 20.57214691814627,
+      "per_group_distance": {
+        "timbre": 13.771486901897637,
+        "pitch_class": 2.048696370879378,
+        "tonal_geometry": 2.344773836183615,
+        "spectral_contrast": 7.512073354587878,
+        "spectral_shape": 7.42703844398987,
+        "noisiness": 1.589733312347638,
+        "energy": 2.203137081697215,
+        "rhythm": 1.1829354641520813
+      }
+    },
+    {
+      "i": 11,
+      "j": 14,
+      "i_name": "Old-Time / Historic",
+      "j_name": "Soul-RnB",
+      "full_distance": 23.096173966042787,
+      "per_group_distance": {
+        "timbre": 16.10256315861269,
+        "pitch_class": 1.258777874887682,
+        "tonal_geometry": 2.5544917992775726,
+        "spectral_contrast": 7.250084787643954,
+        "spectral_shape": 8.934710644956569,
+        "noisiness": 2.5586184310496756,
+        "energy": 2.674610976143881,
+        "rhythm": 5.476203355167852
+      }
+    },
+    {
+      "i": 11,
+      "j": 15,
+      "i_name": "Old-Time / Historic",
+      "j_name": "Spoken",
+      "full_distance": 19.040954597012718,
+      "per_group_distance": {
+        "timbre": 13.25369705479127,
+        "pitch_class": 1.7402254956565095,
+        "tonal_geometry": 3.6272145741722617,
+        "spectral_contrast": 6.233654771187578,
+        "spectral_shape": 7.738404363596436,
+        "noisiness": 2.423041218270352,
+        "energy": 0.7963552348142356,
+        "rhythm": 2.7831896433863474
+      }
+    },
+    {
+      "i": 12,
+      "j": 13,
+      "i_name": "Pop",
+      "j_name": "Rock",
+      "full_distance": 7.287308812191918,
+      "per_group_distance": {
+        "timbre": 4.2322812917698815,
+        "pitch_class": 1.9239900304875763,
+        "tonal_geometry": 1.6967101973469132,
+        "spectral_contrast": 3.404114747906985,
+        "spectral_shape": 1.2374965321359206,
+        "noisiness": 0.7932091751987335,
+        "energy": 0.343853651602044,
+        "rhythm": 1.3389662912644245
+      }
+    },
+    {
+      "i": 12,
+      "j": 14,
+      "i_name": "Pop",
+      "j_name": "Soul-RnB",
+      "full_distance": 7.826767710522536,
+      "per_group_distance": {
+        "timbre": 4.456001722381068,
+        "pitch_class": 1.2354122319927194,
+        "tonal_geometry": 1.5227251472445074,
+        "spectral_contrast": 2.681360886235947,
+        "spectral_shape": 2.3201233266047727,
+        "noisiness": 0.737661030364115,
+        "energy": 1.1459919655935815,
+        "rhythm": 3.397199459812726
+      }
+    },
+    {
+      "i": 12,
+      "j": 15,
+      "i_name": "Pop",
+      "j_name": "Spoken",
+      "full_distance": 8.485604719945872,
+      "per_group_distance": {
+        "timbre": 5.287203369848234,
+        "pitch_class": 2.2614078427976265,
+        "tonal_geometry": 3.230558023801954,
+        "spectral_contrast": 2.7353630314366892,
+        "spectral_shape": 0.8774894448891475,
+        "noisiness": 0.9690378022898077,
+        "energy": 2.124186839783736,
+        "rhythm": 1.5936182975981572
+      }
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "i_name": "Rock",
+      "j_name": "Soul-RnB",
+      "full_distance": 10.702346401562792,
+      "per_group_distance": {
+        "timbre": 6.795639635555509,
+        "pitch_class": 2.3163706881319595,
+        "tonal_geometry": 1.3561723911566521,
+        "spectral_contrast": 3.776328607317733,
+        "spectral_shape": 2.355131864547035,
+        "noisiness": 1.2009147637092448,
+        "energy": 1.237378103754941,
+        "rhythm": 4.6708347654123825
+      }
+    },
+    {
+      "i": 13,
+      "j": 15,
+      "i_name": "Rock",
+      "j_name": "Spoken",
+      "full_distance": 11.750578478389285,
+      "per_group_distance": {
+        "timbre": 8.432934909072506,
+        "pitch_class": 2.2692898382314373,
+        "tonal_geometry": 2.1331057197122174,
+        "spectral_contrast": 3.8996984053627615,
+        "spectral_shape": 1.235491877479181,
+        "noisiness": 1.123411076724935,
+        "energy": 2.3962951593455974,
+        "rhythm": 2.3964119529272057
+      }
+    },
+    {
+      "i": 14,
+      "j": 15,
+      "i_name": "Soul-RnB",
+      "j_name": "Spoken",
+      "full_distance": 9.076612182228672,
+      "per_group_distance": {
+        "timbre": 5.946806723801089,
+        "pitch_class": 1.5672532442843177,
+        "tonal_geometry": 2.5575853674412676,
+        "spectral_contrast": 2.9958134244308985,
+        "spectral_shape": 1.7391282959259908,
+        "noisiness": 0.5255969532244511,
+        "energy": 2.5337657291568423,
+        "rhythm": 3.3246760653037124
+      }
+    }
+  ]
+}

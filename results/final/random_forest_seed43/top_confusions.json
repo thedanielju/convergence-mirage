@@ -1,0 +1,84 @@
+{
+  "top_confusions": [
+    {
+      "true_label": 3,
+      "predicted_label": 4,
+      "true_name": "Easy Listening",
+      "predicted_name": "Electronic",
+      "count": 5,
+      "true_class_rate": 0.8333333333333334
+    },
+    {
+      "true_label": 10,
+      "predicted_label": 4,
+      "true_name": "Jazz",
+      "predicted_name": "Electronic",
+      "count": 25,
+      "true_class_rate": 0.6410256410256411
+    },
+    {
+      "true_label": 12,
+      "predicted_label": 4,
+      "true_name": "Pop",
+      "predicted_name": "Electronic",
+      "count": 12,
+      "true_class_rate": 0.631578947368421
+    },
+    {
+      "true_label": 7,
+      "predicted_label": 4,
+      "true_name": "Hip-Hop",
+      "predicted_name": "Electronic",
+      "count": 68,
+      "true_class_rate": 0.5666666666666667
+    },
+    {
+      "true_label": 14,
+      "predicted_label": 4,
+      "true_name": "Soul-RnB",
+      "predicted_name": "Electronic",
+      "count": 22,
+      "true_class_rate": 0.5238095238095238
+    },
+    {
+      "true_label": 6,
+      "predicted_label": 13,
+      "true_name": "Folk",
+      "predicted_name": "Rock",
+      "count": 27,
+      "true_class_rate": 0.5192307692307693
+    },
+    {
+      "true_label": 2,
+      "predicted_label": 4,
+      "true_name": "Country",
+      "predicted_name": "Electronic",
+      "count": 9,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 2,
+      "predicted_label": 13,
+      "true_name": "Country",
+      "predicted_name": "Rock",
+      "count": 9,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 15,
+      "predicted_label": 4,
+      "true_name": "Spoken",
+      "predicted_name": "Electronic",
+      "count": 6,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 0,
+      "predicted_label": 4,
+      "true_name": "Blues",
+      "predicted_name": "Electronic",
+      "count": 4,
+      "true_class_rate": 0.5
+    }
+  ]
+}

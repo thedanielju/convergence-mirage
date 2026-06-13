@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "artifact_schema_version": 2,
+  "updated_at_utc": "2026-05-08T23:48:53.977920+00:00",
+  "artifact_paths": {
+    "config.json": "results/specaugment_ablation/mamba2_seed42_no_specaugment/config.json",
+    "environment.json": "results/specaugment_ablation/mamba2_seed42_no_specaugment/environment.json",
+    "debug_gates.json": "results/specaugment_ablation/mamba2_seed42_no_specaugment/debug_gates.json",
+    "history.csv": "results/specaugment_ablation/mamba2_seed42_no_specaugment/history.csv",
+    "history.jsonl": "results/specaugment_ablation/mamba2_seed42_no_specaugment/history.jsonl",
+    "train.log": "results/specaugment_ablation/mamba2_seed42_no_specaugment/train.log",
+    "best.pt": "results/specaugment_ablation/mamba2_seed42_no_specaugment/best.pt",
+    "metrics.json": "results/specaugment_ablation/mamba2_seed42_no_specaugment/metrics.json",
+    "classification_report.json": "results/specaugment_ablation/mamba2_seed42_no_specaugment/classification_report.json",
+    "report.txt": "results/specaugment_ablation/mamba2_seed42_no_specaugment/report.txt",
+    "confusion_matrix.npy": "results/specaugment_ablation/mamba2_seed42_no_specaugment/confusion_matrix.npy",
+    "confusion_matrix_normalized.npy": "results/specaugment_ablation/mamba2_seed42_no_specaugment/confusion_matrix_normalized.npy",
+    "top_confusions.json": "results/specaugment_ablation/mamba2_seed42_no_specaugment/top_confusions.json",
+    "predictions.npy": "results/specaugment_ablation/mamba2_seed42_no_specaugment/predictions.npy",
+    "probabilities.npy": "results/specaugment_ablation/mamba2_seed42_no_specaugment/probabilities.npy",
+    "test_labels.npy": "results/specaugment_ablation/mamba2_seed42_no_specaugment/test_labels.npy",
+    "test_track_ids.npy": "results/specaugment_ablation/mamba2_seed42_no_specaugment/test_track_ids.npy",
+    "run_manifest.json": "results/specaugment_ablation/mamba2_seed42_no_specaugment/run_manifest.json"
+  },
+  "status": "completed",
+  "model": "mamba2",
+  "seed": 42,
+  "crop_seconds": 30.0,
+  "data_root": "data/processed/fma_full_60s",
+  "finished_at_utc": "2026-05-08T23:48:53.977896+00:00"
+}

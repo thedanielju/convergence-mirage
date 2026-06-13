@@ -1,0 +1,63 @@
+{
+  "created_at_utc": "2026-05-08T23:39:40.206418+00:00",
+  "entrypoint": "scripts/03_analysis/time_context_analysis.py",
+  "command": "scripts/03_analysis/time_context_analysis.py --data-root data/processed/fma_full_60s --crop-seconds 60 --split test --limit-samples 512 --batch-size 8 --device cuda --run-dir results/long_sequence/transformer_seed42_60s --run-dir results/long_sequence/transformer_seed43_60s --run-dir results/long_sequence/transformer_seed44_60s --run-dir results/long_sequence/mamba2_seed46_60s --output-dir results/time_context_analysis",
+  "results": [
+    {
+      "run_dir": "results/long_sequence/transformer_seed42_60s",
+      "model": "transformer",
+      "checkpoint": "results/long_sequence/transformer_seed42_60s/best.pt",
+      "split": "test",
+      "sample_count": 512,
+      "crop_seconds": 60.0,
+      "data_root": "data/processed/fma_full_60s",
+      "curve_length": 2584,
+      "csv": "results/time_context_analysis/transformer_seed42_60s_time_context.csv",
+      "figure": "results/time_context_analysis/transformer_seed42_60s_time_context.png",
+      "runtime_seconds": 2.1931931379949674,
+      "interpretation": "Transformer values are mean CLS-to-time attention. Mamba values are residual-block token activation norm, an activation/state-magnitude proxy rather than literal hidden SSM state."
+    },
+    {
+      "run_dir": "results/long_sequence/transformer_seed43_60s",
+      "model": "transformer",
+      "checkpoint": "results/long_sequence/transformer_seed43_60s/best.pt",
+      "split": "test",
+      "sample_count": 512,
+      "crop_seconds": 60.0,
+      "data_root": "data/processed/fma_full_60s",
+      "curve_length": 2584,
+      "csv": "results/time_context_analysis/transformer_seed43_60s_time_context.csv",
+      "figure": "results/time_context_analysis/transformer_seed43_60s_time_context.png",
+      "runtime_seconds": 2.0145975810009986,
+      "interpretation": "Transformer values are mean CLS-to-time attention. Mamba values are residual-block token activation norm, an activation/state-magnitude proxy rather than literal hidden SSM state."
+    },
+    {
+      "run_dir": "results/long_sequence/transformer_seed44_60s",
+      "model": "transformer",
+      "checkpoint": "results/long_sequence/transformer_seed44_60s/best.pt",
+      "split": "test",
+      "sample_count": 512,
+      "crop_seconds": 60.0,
+      "data_root": "data/processed/fma_full_60s",
+      "curve_length": 2584,
+      "csv": "results/time_context_analysis/transformer_seed44_60s_time_context.csv",
+      "figure": "results/time_context_analysis/transformer_seed44_60s_time_context.png",
+      "runtime_seconds": 2.0228485329425894,
+      "interpretation": "Transformer values are mean CLS-to-time attention. Mamba values are residual-block token activation norm, an activation/state-magnitude proxy rather than literal hidden SSM state."
+    },
+    {
+      "run_dir": "results/long_sequence/mamba2_seed46_60s",
+      "model": "mamba2",
+      "checkpoint": "results/long_sequence/mamba2_seed46_60s/best.pt",
+      "split": "test",
+      "sample_count": 512,
+      "crop_seconds": 60.0,
+      "data_root": "data/processed/fma_full_60s",
+      "curve_length": 2584,
+      "csv": "results/time_context_analysis/mamba2_seed46_60s_time_context.csv",
+      "figure": "results/time_context_analysis/mamba2_seed46_60s_time_context.png",
+      "runtime_seconds": 27.231332532013766,
+      "interpretation": "Transformer values are mean CLS-to-time attention. Mamba values are residual-block token activation norm, an activation/state-magnitude proxy rather than literal hidden SSM state."
+    }
+  ]
+}

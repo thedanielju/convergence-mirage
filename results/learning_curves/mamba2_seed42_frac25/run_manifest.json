@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "artifact_schema_version": 2,
+  "updated_at_utc": "2026-05-08T12:40:59.624891+00:00",
+  "artifact_paths": {
+    "config.json": "results/learning_curves/mamba2_seed42_frac25/config.json",
+    "environment.json": "results/learning_curves/mamba2_seed42_frac25/environment.json",
+    "debug_gates.json": "results/learning_curves/mamba2_seed42_frac25/debug_gates.json",
+    "history.csv": "results/learning_curves/mamba2_seed42_frac25/history.csv",
+    "history.jsonl": "results/learning_curves/mamba2_seed42_frac25/history.jsonl",
+    "train.log": "results/learning_curves/mamba2_seed42_frac25/train.log",
+    "best.pt": "results/learning_curves/mamba2_seed42_frac25/best.pt",
+    "metrics.json": "results/learning_curves/mamba2_seed42_frac25/metrics.json",
+    "classification_report.json": "results/learning_curves/mamba2_seed42_frac25/classification_report.json",
+    "report.txt": "results/learning_curves/mamba2_seed42_frac25/report.txt",
+    "confusion_matrix.npy": "results/learning_curves/mamba2_seed42_frac25/confusion_matrix.npy",
+    "confusion_matrix_normalized.npy": "results/learning_curves/mamba2_seed42_frac25/confusion_matrix_normalized.npy",
+    "top_confusions.json": "results/learning_curves/mamba2_seed42_frac25/top_confusions.json",
+    "predictions.npy": "results/learning_curves/mamba2_seed42_frac25/predictions.npy",
+    "probabilities.npy": "results/learning_curves/mamba2_seed42_frac25/probabilities.npy",
+    "test_labels.npy": "results/learning_curves/mamba2_seed42_frac25/test_labels.npy",
+    "test_track_ids.npy": "results/learning_curves/mamba2_seed42_frac25/test_track_ids.npy",
+    "run_manifest.json": "results/learning_curves/mamba2_seed42_frac25/run_manifest.json"
+  },
+  "status": "completed",
+  "model": "mamba2",
+  "seed": 42,
+  "crop_seconds": 30.0,
+  "data_root": "data/processed/fma_medium",
+  "finished_at_utc": "2026-05-08T12:40:59.624873+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "model": "xgboost",
+  "seed": 46,
+  "feature_matrix": "540-d standardized FMA+rhythm features",
+  "selection_metric": "validation_macro_f1",
+  "refit_scope": "train_validation",
+  "refit_scope_recommendation": {
+    "default_refit_scope": "train_validation",
+    "selected_refit_scope": "train_validation",
+    "recommendation": "Use train_validation for final benchmark runs after validation has selected hyperparameters; use train_only only for strict validation-is-never-refit ablations."
+  },
+  "estimator": {
+    "objective": "multi:softprob",
+    "num_class": 16,
+    "eval_metric": "mlogloss",
+    "tree_method": "hist",
+    "device": "cpu",
+    "random_state": 46,
+    "n_jobs": 8,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 1.0
+  },
+  "sample_weight": "class_weights.json normalized to mean 1.0 on the selected refit split",
+  "grid": {
+    "learning_rate": [
+      0.01,
+      0.1,
+      0.3
+    ],
+    "max_depth": [
+      3,
+      6,
+      9
+    ],
+    "n_estimators": [
+      100,
+      500,
+      1000
+    ]
+  },
+  "smoke": false
+}

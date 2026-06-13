@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "artifact_schema_version": 2,
+  "updated_at_utc": "2026-05-08T22:05:54.042181+00:00",
+  "artifact_paths": {
+    "config.json": "results/long_sequence/transformer_seed44_60s/config.json",
+    "environment.json": "results/long_sequence/transformer_seed44_60s/environment.json",
+    "debug_gates.json": "results/long_sequence/transformer_seed44_60s/debug_gates.json",
+    "history.csv": "results/long_sequence/transformer_seed44_60s/history.csv",
+    "history.jsonl": "results/long_sequence/transformer_seed44_60s/history.jsonl",
+    "train.log": "results/long_sequence/transformer_seed44_60s/train.log",
+    "best.pt": "results/long_sequence/transformer_seed44_60s/best.pt",
+    "metrics.json": "results/long_sequence/transformer_seed44_60s/metrics.json",
+    "classification_report.json": "results/long_sequence/transformer_seed44_60s/classification_report.json",
+    "report.txt": "results/long_sequence/transformer_seed44_60s/report.txt",
+    "confusion_matrix.npy": "results/long_sequence/transformer_seed44_60s/confusion_matrix.npy",
+    "confusion_matrix_normalized.npy": "results/long_sequence/transformer_seed44_60s/confusion_matrix_normalized.npy",
+    "top_confusions.json": "results/long_sequence/transformer_seed44_60s/top_confusions.json",
+    "predictions.npy": "results/long_sequence/transformer_seed44_60s/predictions.npy",
+    "probabilities.npy": "results/long_sequence/transformer_seed44_60s/probabilities.npy",
+    "test_labels.npy": "results/long_sequence/transformer_seed44_60s/test_labels.npy",
+    "test_track_ids.npy": "results/long_sequence/transformer_seed44_60s/test_track_ids.npy",
+    "run_manifest.json": "results/long_sequence/transformer_seed44_60s/run_manifest.json"
+  },
+  "status": "completed",
+  "model": "transformer",
+  "seed": 44,
+  "crop_seconds": 60.0,
+  "data_root": "data/processed/fma_full_60s",
+  "finished_at_utc": "2026-05-08T22:05:54.042157+00:00"
+}

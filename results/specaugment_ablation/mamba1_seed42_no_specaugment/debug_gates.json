@@ -1,0 +1,35 @@
+{
+  "skipped": true,
+  "reason": "--skip-debug-gates was set",
+  "mamba_dependency_build": {
+    "passed": true,
+    "version": "mamba1",
+    "dependencies": {
+      "einops": {
+        "module": "einops",
+        "available": true
+      },
+      "causal-conv1d": {
+        "module": "causal_conv1d",
+        "available": true
+      },
+      "mamba-ssm": {
+        "module": "mamba_ssm",
+        "available": true
+      }
+    },
+    "torch_version": "2.11.0+cu128",
+    "torch_cuda_version": "12.8",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "imported_class": "mamba_ssm.modules.mamba_simple.Mamba",
+    "forward_smoke": {
+      "passed": true,
+      "logits_shape": [
+        2,
+        16
+      ],
+      "parameter_count": 2229008
+    }
+  }
+}

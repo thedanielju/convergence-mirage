@@ -1,0 +1,7 @@
+[
+  "cnn2d",
+  "bilstm",
+  "transformer",
+  "mamba1",
+  "mamba2"
+]

@@ -1,0 +1,28 @@
+{
+  "tracks_csv": "data\\raw\\fma_metadata\\tracks.csv",
+  "audio_dir": "data\\raw\\fma_medium",
+  "subset_filter": {
+    "set.subset": "medium"
+  },
+  "split_source": "tracks.csv (set.split)",
+  "counts": {
+    "training": 13522,
+    "validation": 1705,
+    "test": 1773,
+    "total": 17000
+  },
+  "artist_overlap": {
+    "training_validation": 0,
+    "training_test": 0,
+    "validation_test": 0
+  },
+  "all_audio_present": true,
+  "missing_audio_count": 0,
+  "artifacts": {
+    "manifest": "data\\splits\\fma_medium\\manifest.csv",
+    "training_ids": "data\\splits\\fma_medium\\training_ids.txt",
+    "validation_ids": "data\\splits\\fma_medium\\validation_ids.txt",
+    "test_ids": "data\\splits\\fma_medium\\test_ids.txt",
+    "missing_audio": "data\\splits\\fma_medium\\missing_audio.csv"
+  }
+}

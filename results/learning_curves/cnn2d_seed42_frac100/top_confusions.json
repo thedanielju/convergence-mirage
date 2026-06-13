@@ -1,0 +1,84 @@
+{
+  "top_confusions": [
+    {
+      "true_label": 3,
+      "predicted_label": 1,
+      "true_name": "Easy Listening",
+      "predicted_name": "Classical",
+      "count": 4,
+      "true_class_rate": 0.6666666666666666
+    },
+    {
+      "true_label": 9,
+      "predicted_label": 10,
+      "true_name": "International",
+      "predicted_name": "Jazz",
+      "count": 1,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 9,
+      "predicted_label": 14,
+      "true_name": "International",
+      "predicted_name": "Soul-RnB",
+      "count": 1,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 14,
+      "predicted_label": 13,
+      "true_name": "Soul-RnB",
+      "predicted_name": "Rock",
+      "count": 18,
+      "true_class_rate": 0.42857142857142855
+    },
+    {
+      "true_label": 0,
+      "predicted_label": 7,
+      "true_name": "Blues",
+      "predicted_name": "Hip-Hop",
+      "count": 3,
+      "true_class_rate": 0.375
+    },
+    {
+      "true_label": 8,
+      "predicted_label": 6,
+      "true_name": "Instrumental",
+      "predicted_name": "Folk",
+      "count": 27,
+      "true_class_rate": 0.36486486486486486
+    },
+    {
+      "true_label": 3,
+      "predicted_label": 8,
+      "true_name": "Easy Listening",
+      "predicted_name": "Instrumental",
+      "count": 2,
+      "true_class_rate": 0.3333333333333333
+    },
+    {
+      "true_label": 5,
+      "predicted_label": 8,
+      "true_name": "Experimental",
+      "predicted_name": "Instrumental",
+      "count": 33,
+      "true_class_rate": 0.264
+    },
+    {
+      "true_label": 2,
+      "predicted_label": 7,
+      "true_name": "Country",
+      "predicted_name": "Hip-Hop",
+      "count": 4,
+      "true_class_rate": 0.2222222222222222
+    },
+    {
+      "true_label": 2,
+      "predicted_label": 14,
+      "true_name": "Country",
+      "predicted_name": "Soul-RnB",
+      "count": 4,
+      "true_class_rate": 0.2222222222222222
+    }
+  ]
+}

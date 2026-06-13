@@ -1,0 +1,362 @@
+{
+  "cnn2d": {
+    "per_class_f1_sorted_ascending": [
+      {
+        "class": "Easy Listening",
+        "f1": 0.0
+      },
+      {
+        "class": "International",
+        "f1": 0.0
+      },
+      {
+        "class": "Pop",
+        "f1": 0.024464831804281346
+      },
+      {
+        "class": "Blues",
+        "f1": 0.0923076923076923
+      },
+      {
+        "class": "Soul-RnB",
+        "f1": 0.1358490566037736
+      },
+      {
+        "class": "Country",
+        "f1": 0.15242494226327943
+      },
+      {
+        "class": "Instrumental",
+        "f1": 0.17551963048498845
+      },
+      {
+        "class": "Experimental",
+        "f1": 0.3244635193133047
+      },
+      {
+        "class": "Jazz",
+        "f1": 0.33671399594320484
+      },
+      {
+        "class": "Folk",
+        "f1": 0.3929098966026588
+      },
+      {
+        "class": "Spoken",
+        "f1": 0.4291497975708502
+      },
+      {
+        "class": "Hip-Hop",
+        "f1": 0.6413570274636511
+      },
+      {
+        "class": "Electronic",
+        "f1": 0.65725989986345
+      },
+      {
+        "class": "Classical",
+        "f1": 0.659217877094972
+      },
+      {
+        "class": "Rock",
+        "f1": 0.7484997272231314
+      },
+      {
+        "class": "Old-Time / Historic",
+        "f1": 0.92578125
+      }
+    ],
+    "weakest_class": "Easy Listening",
+    "strongest_class": "Old-Time / Historic",
+    "most_confused_out_class": "Easy Listening",
+    "most_confused_in_class": "Instrumental"
+  },
+  "bilstm": {
+    "per_class_f1_sorted_ascending": [
+      {
+        "class": "Blues",
+        "f1": 0.0
+      },
+      {
+        "class": "Easy Listening",
+        "f1": 0.0
+      },
+      {
+        "class": "International",
+        "f1": 0.0
+      },
+      {
+        "class": "Pop",
+        "f1": 0.01515151515151515
+      },
+      {
+        "class": "Country",
+        "f1": 0.10256410256410256
+      },
+      {
+        "class": "Soul-RnB",
+        "f1": 0.13989637305699482
+      },
+      {
+        "class": "Instrumental",
+        "f1": 0.15772179627601315
+      },
+      {
+        "class": "Experimental",
+        "f1": 0.26288274831964153
+      },
+      {
+        "class": "Folk",
+        "f1": 0.31901840490797545
+      },
+      {
+        "class": "Jazz",
+        "f1": 0.3621399176954732
+      },
+      {
+        "class": "Spoken",
+        "f1": 0.3888888888888889
+      },
+      {
+        "class": "Hip-Hop",
+        "f1": 0.5942536790469517
+      },
+      {
+        "class": "Classical",
+        "f1": 0.6410596026490066
+      },
+      {
+        "class": "Electronic",
+        "f1": 0.6688639859371567
+      },
+      {
+        "class": "Rock",
+        "f1": 0.7620221948212083
+      },
+      {
+        "class": "Old-Time / Historic",
+        "f1": 0.9371428571428572
+      }
+    ],
+    "weakest_class": "Blues",
+    "strongest_class": "Old-Time / Historic",
+    "most_confused_out_class": "Blues",
+    "most_confused_in_class": "Rock"
+  },
+  "transformer": {
+    "per_class_f1_sorted_ascending": [
+      {
+        "class": "Easy Listening",
+        "f1": 0.0
+      },
+      {
+        "class": "International",
+        "f1": 0.0
+      },
+      {
+        "class": "Blues",
+        "f1": 0.016666666666666666
+      },
+      {
+        "class": "Pop",
+        "f1": 0.02150537634408602
+      },
+      {
+        "class": "Country",
+        "f1": 0.056795131845841784
+      },
+      {
+        "class": "Soul-RnB",
+        "f1": 0.07162534435261708
+      },
+      {
+        "class": "Instrumental",
+        "f1": 0.11387900355871887
+      },
+      {
+        "class": "Experimental",
+        "f1": 0.19401631912964645
+      },
+      {
+        "class": "Folk",
+        "f1": 0.3179791976225854
+      },
+      {
+        "class": "Jazz",
+        "f1": 0.3327433628318584
+      },
+      {
+        "class": "Spoken",
+        "f1": 0.5365853658536585
+      },
+      {
+        "class": "Hip-Hop",
+        "f1": 0.5463087248322147
+      },
+      {
+        "class": "Classical",
+        "f1": 0.6122448979591836
+      },
+      {
+        "class": "Electronic",
+        "f1": 0.6513495427169306
+      },
+      {
+        "class": "Rock",
+        "f1": 0.733091160698841
+      },
+      {
+        "class": "Old-Time / Historic",
+        "f1": 0.8458904109589042
+      }
+    ],
+    "weakest_class": "Easy Listening",
+    "strongest_class": "Old-Time / Historic",
+    "most_confused_out_class": "Easy Listening",
+    "most_confused_in_class": "Rock"
+  },
+  "mamba1": {
+    "per_class_f1_sorted_ascending": [
+      {
+        "class": "Blues",
+        "f1": 0.0
+      },
+      {
+        "class": "Easy Listening",
+        "f1": 0.0
+      },
+      {
+        "class": "International",
+        "f1": 0.0
+      },
+      {
+        "class": "Pop",
+        "f1": 0.01990049751243781
+      },
+      {
+        "class": "Soul-RnB",
+        "f1": 0.07823960880195599
+      },
+      {
+        "class": "Country",
+        "f1": 0.11945392491467578
+      },
+      {
+        "class": "Instrumental",
+        "f1": 0.1479591836734694
+      },
+      {
+        "class": "Experimental",
+        "f1": 0.28862478777589134
+      },
+      {
+        "class": "Jazz",
+        "f1": 0.34986945169712796
+      },
+      {
+        "class": "Folk",
+        "f1": 0.3614457831325301
+      },
+      {
+        "class": "Spoken",
+        "f1": 0.4279475982532751
+      },
+      {
+        "class": "Hip-Hop",
+        "f1": 0.5519287833827893
+      },
+      {
+        "class": "Classical",
+        "f1": 0.6895674300254452
+      },
+      {
+        "class": "Electronic",
+        "f1": 0.6966243818533648
+      },
+      {
+        "class": "Rock",
+        "f1": 0.7364527464398002
+      },
+      {
+        "class": "Old-Time / Historic",
+        "f1": 0.929368029739777
+      }
+    ],
+    "weakest_class": "Blues",
+    "strongest_class": "Old-Time / Historic",
+    "most_confused_out_class": "Blues",
+    "most_confused_in_class": "Rock"
+  },
+  "mamba2": {
+    "per_class_f1_sorted_ascending": [
+      {
+        "class": "Blues",
+        "f1": 0.0
+      },
+      {
+        "class": "Easy Listening",
+        "f1": 0.0
+      },
+      {
+        "class": "International",
+        "f1": 0.0
+      },
+      {
+        "class": "Pop",
+        "f1": 0.022988505747126436
+      },
+      {
+        "class": "Instrumental",
+        "f1": 0.13483146067415727
+      },
+      {
+        "class": "Soul-RnB",
+        "f1": 0.14049586776859505
+      },
+      {
+        "class": "Country",
+        "f1": 0.16520210896309317
+      },
+      {
+        "class": "Experimental",
+        "f1": 0.3270951993490643
+      },
+      {
+        "class": "Jazz",
+        "f1": 0.3611111111111111
+      },
+      {
+        "class": "Folk",
+        "f1": 0.3647058823529412
+      },
+      {
+        "class": "Spoken",
+        "f1": 0.44761904761904764
+      },
+      {
+        "class": "Hip-Hop",
+        "f1": 0.6587183308494784
+      },
+      {
+        "class": "Classical",
+        "f1": 0.6706875753920386
+      },
+      {
+        "class": "Electronic",
+        "f1": 0.7161192081792475
+      },
+      {
+        "class": "Rock",
+        "f1": 0.748898678414097
+      },
+      {
+        "class": "Old-Time / Historic",
+        "f1": 0.9411764705882353
+      }
+    ],
+    "weakest_class": "Blues",
+    "strongest_class": "Old-Time / Historic",
+    "most_confused_out_class": "Blues",
+    "most_confused_in_class": "Rock"
+  }
+}

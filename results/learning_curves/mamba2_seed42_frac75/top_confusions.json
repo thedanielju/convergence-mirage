@@ -1,0 +1,84 @@
+{
+  "top_confusions": [
+    {
+      "true_label": 0,
+      "predicted_label": 13,
+      "true_name": "Blues",
+      "predicted_name": "Rock",
+      "count": 5,
+      "true_class_rate": 0.625
+    },
+    {
+      "true_label": 3,
+      "predicted_label": 1,
+      "true_name": "Easy Listening",
+      "predicted_name": "Classical",
+      "count": 3,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 9,
+      "predicted_label": 10,
+      "true_name": "International",
+      "predicted_name": "Jazz",
+      "count": 1,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 9,
+      "predicted_label": 14,
+      "true_name": "International",
+      "predicted_name": "Soul-RnB",
+      "count": 1,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 8,
+      "predicted_label": 6,
+      "true_name": "Instrumental",
+      "predicted_name": "Folk",
+      "count": 27,
+      "true_class_rate": 0.36486486486486486
+    },
+    {
+      "true_label": 3,
+      "predicted_label": 10,
+      "true_name": "Easy Listening",
+      "predicted_name": "Jazz",
+      "count": 2,
+      "true_class_rate": 0.3333333333333333
+    },
+    {
+      "true_label": 14,
+      "predicted_label": 13,
+      "true_name": "Soul-RnB",
+      "predicted_name": "Rock",
+      "count": 11,
+      "true_class_rate": 0.2619047619047619
+    },
+    {
+      "true_label": 0,
+      "predicted_label": 5,
+      "true_name": "Blues",
+      "predicted_name": "Experimental",
+      "count": 2,
+      "true_class_rate": 0.25
+    },
+    {
+      "true_label": 14,
+      "predicted_label": 4,
+      "true_name": "Soul-RnB",
+      "predicted_name": "Electronic",
+      "count": 9,
+      "true_class_rate": 0.21428571428571427
+    },
+    {
+      "true_label": 12,
+      "predicted_label": 4,
+      "true_name": "Pop",
+      "predicted_name": "Electronic",
+      "count": 4,
+      "true_class_rate": 0.21052631578947367
+    }
+  ]
+}

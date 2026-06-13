@@ -1,0 +1,129 @@
+{
+  "per_arch": {
+    "cnn2d": {
+      "rho": 0.6190476190476191,
+      "p_value": 0.1017330374542646,
+      "n_groups": 8,
+      "cka_per_group": {
+        "timbre": 0.39279460467263866,
+        "pitch_class": 0.08847686484420164,
+        "tonal_geometry": 0.16709502396925138,
+        "spectral_contrast": 0.3395002189960179,
+        "spectral_shape": 0.2618987376599106,
+        "noisiness": 0.16381760515914656,
+        "energy": 0.17533828579955085,
+        "rhythm": 0.39469859767608567
+      },
+      "mean_distance_per_group_over_top_confused": {
+        "timbre": 7.077682166453771,
+        "pitch_class": 2.8844225925003455,
+        "tonal_geometry": 2.2587014067290117,
+        "spectral_contrast": 3.874911019780137,
+        "spectral_shape": 2.762364159081483,
+        "noisiness": 1.1681941880051938,
+        "energy": 1.051168575476521,
+        "rhythm": 3.482533499822074
+      }
+    },
+    "bilstm": {
+      "rho": 0.7619047619047621,
+      "p_value": 0.028004939153071794,
+      "n_groups": 8,
+      "cka_per_group": {
+        "timbre": 0.3826190415605903,
+        "pitch_class": 0.09120743223561696,
+        "tonal_geometry": 0.16045307992294094,
+        "spectral_contrast": 0.2753470256504499,
+        "spectral_shape": 0.21960895978765124,
+        "noisiness": 0.1709582173337362,
+        "energy": 0.16471624245099653,
+        "rhythm": 0.2742311693949547
+      },
+      "mean_distance_per_group_over_top_confused": {
+        "timbre": 6.913350147265556,
+        "pitch_class": 2.2348568157885658,
+        "tonal_geometry": 1.8791163078861353,
+        "spectral_contrast": 4.183304595562275,
+        "spectral_shape": 2.3100739587427377,
+        "noisiness": 0.9509762741803142,
+        "energy": 1.199985536476955,
+        "rhythm": 3.0619762212743833
+      }
+    },
+    "transformer": {
+      "rho": 0.6666666666666669,
+      "p_value": 0.07098765432098751,
+      "n_groups": 8,
+      "cka_per_group": {
+        "timbre": 0.36716679252058726,
+        "pitch_class": 0.07442226928739318,
+        "tonal_geometry": 0.13385893101271357,
+        "spectral_contrast": 0.25507902653739056,
+        "spectral_shape": 0.2142982928110225,
+        "noisiness": 0.13915894128878586,
+        "energy": 0.1566073375547945,
+        "rhythm": 0.23065455442362495
+      },
+      "mean_distance_per_group_over_top_confused": {
+        "timbre": 5.922721908163098,
+        "pitch_class": 2.6136718810260122,
+        "tonal_geometry": 1.8428383295405428,
+        "spectral_contrast": 3.2283200385226936,
+        "spectral_shape": 2.0691677564268947,
+        "noisiness": 1.0849039210217701,
+        "energy": 0.7620400180006648,
+        "rhythm": 2.920084454607949
+      }
+    },
+    "mamba1": {
+      "rho": 0.7142857142857144,
+      "p_value": 0.04652823228416724,
+      "n_groups": 8,
+      "cka_per_group": {
+        "timbre": 0.36843783733565943,
+        "pitch_class": 0.08689165229143245,
+        "tonal_geometry": 0.16565012703830898,
+        "spectral_contrast": 0.2525973800463317,
+        "spectral_shape": 0.21391629293990347,
+        "noisiness": 0.15459479928992464,
+        "energy": 0.13186962140563876,
+        "rhythm": 0.3225790576275012
+      },
+      "mean_distance_per_group_over_top_confused": {
+        "timbre": 5.9534642042538675,
+        "pitch_class": 2.2557333122728407,
+        "tonal_geometry": 1.5384043093950632,
+        "spectral_contrast": 3.520813138765967,
+        "spectral_shape": 1.731718748580984,
+        "noisiness": 0.800586345382747,
+        "energy": 0.9578307428780336,
+        "rhythm": 2.7517167435511984
+      }
+    },
+    "mamba2": {
+      "rho": 0.7142857142857144,
+      "p_value": 0.04652823228416724,
+      "n_groups": 8,
+      "cka_per_group": {
+        "timbre": 0.36331416658506527,
+        "pitch_class": 0.08713596912685176,
+        "tonal_geometry": 0.18065195944566534,
+        "spectral_contrast": 0.2507837811137094,
+        "spectral_shape": 0.21720307209586776,
+        "noisiness": 0.15359576295163963,
+        "energy": 0.1328804724451195,
+        "rhythm": 0.320046755830085
+      },
+      "mean_distance_per_group_over_top_confused": {
+        "timbre": 7.708687581818658,
+        "pitch_class": 2.680891054667242,
+        "tonal_geometry": 2.2169447501908635,
+        "spectral_contrast": 4.432003038813467,
+        "spectral_shape": 2.377043878431469,
+        "noisiness": 1.2803233553657805,
+        "energy": 1.3022770278550841,
+        "rhythm": 2.884167729157107
+      }
+    }
+  }
+}

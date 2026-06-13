@@ -1,0 +1,228 @@
+{
+  "aggregated_path": "results\\learning_curves\\aggregated.json",
+  "completed_count": 20,
+  "created_at_utc": "2026-05-08T18:46:14.336040Z",
+  "entries": [
+    {
+      "accuracy": 0.5259593679458239,
+      "fraction_int": 100,
+      "macro_f1": 0.30692004236632414,
+      "model_key": "bilstm",
+      "output_dir": "results\\learning_curves\\bilstm_seed42_frac100",
+      "run_manifest": "results\\learning_curves\\bilstm_seed42_frac100\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 1205.2187160209996
+    },
+    {
+      "accuracy": 0.5457110609480813,
+      "fraction_int": 25,
+      "macro_f1": 0.2832366747182934,
+      "model_key": "bilstm",
+      "output_dir": "results\\learning_curves\\bilstm_seed42_frac25",
+      "run_manifest": "results\\learning_curves\\bilstm_seed42_frac25\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 798.7221069000661
+    },
+    {
+      "accuracy": 0.5733634311512416,
+      "fraction_int": 50,
+      "macro_f1": 0.33173022884852943,
+      "model_key": "bilstm",
+      "output_dir": "results\\learning_curves\\bilstm_seed42_frac50",
+      "run_manifest": "results\\learning_curves\\bilstm_seed42_frac50\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 860.3410180620849
+    },
+    {
+      "accuracy": 0.6247178329571106,
+      "fraction_int": 75,
+      "macro_f1": 0.3372697425619889,
+      "model_key": "bilstm",
+      "output_dir": "results\\learning_curves\\bilstm_seed42_frac75",
+      "run_manifest": "results\\learning_curves\\bilstm_seed42_frac75\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 2001.2753100730479
+    },
+    {
+      "accuracy": 0.5750564334085779,
+      "fraction_int": 100,
+      "macro_f1": 0.33985424601077385,
+      "model_key": "cnn2d",
+      "output_dir": "results\\learning_curves\\cnn2d_seed42_frac100",
+      "run_manifest": "results\\learning_curves\\cnn2d_seed42_frac100\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 195.6996280439198
+    },
+    {
+      "accuracy": 0.5620767494356659,
+      "fraction_int": 25,
+      "macro_f1": 0.35393073890736915,
+      "model_key": "cnn2d",
+      "output_dir": "results\\learning_curves\\cnn2d_seed42_frac25",
+      "run_manifest": "results\\learning_curves\\cnn2d_seed42_frac25\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 126.24075870960951
+    },
+    {
+      "accuracy": 0.5378103837471784,
+      "fraction_int": 50,
+      "macro_f1": 0.30512750095786767,
+      "model_key": "cnn2d",
+      "output_dir": "results\\learning_curves\\cnn2d_seed42_frac50",
+      "run_manifest": "results\\learning_curves\\cnn2d_seed42_frac50\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 122.54569958150387
+    },
+    {
+      "accuracy": 0.49774266365688485,
+      "fraction_int": 75,
+      "macro_f1": 0.3285145825110969,
+      "model_key": "cnn2d",
+      "output_dir": "results\\learning_curves\\cnn2d_seed42_frac75",
+      "run_manifest": "results\\learning_curves\\cnn2d_seed42_frac75\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 232.0659623146057
+    },
+    {
+      "accuracy": 0.5767494356659142,
+      "fraction_int": 100,
+      "macro_f1": 0.3342081892535673,
+      "model_key": "mamba1",
+      "output_dir": "results\\learning_curves\\mamba1_seed42_frac100",
+      "run_manifest": "results\\learning_curves\\mamba1_seed42_frac100\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 936.3368748590001
+    },
+    {
+      "accuracy": 0.5919864559819413,
+      "fraction_int": 25,
+      "macro_f1": 0.3216098552834208,
+      "model_key": "mamba1",
+      "output_dir": "results\\learning_curves\\mamba1_seed42_frac25",
+      "run_manifest": "results\\learning_curves\\mamba1_seed42_frac25\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 811.1119451279992
+    },
+    {
+      "accuracy": 0.6591422121896162,
+      "fraction_int": 50,
+      "macro_f1": 0.36349074427446354,
+      "model_key": "mamba1",
+      "output_dir": "results\\learning_curves\\mamba1_seed42_frac50",
+      "run_manifest": "results\\learning_curves\\mamba1_seed42_frac50\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 1106.311421423
+    },
+    {
+      "accuracy": 0.5694130925507901,
+      "fraction_int": 75,
+      "macro_f1": 0.33679128235371386,
+      "model_key": "mamba1",
+      "output_dir": "results\\learning_curves\\mamba1_seed42_frac75",
+      "run_manifest": "results\\learning_curves\\mamba1_seed42_frac75\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 504.964073096
+    },
+    {
+      "accuracy": 0.5451467268623025,
+      "fraction_int": 100,
+      "macro_f1": 0.3402298752108114,
+      "model_key": "mamba2",
+      "output_dir": "results\\learning_curves\\mamba2_seed42_frac100",
+      "run_manifest": "results\\learning_curves\\mamba2_seed42_frac100\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 1018.1410420089996
+    },
+    {
+      "accuracy": 0.6162528216704289,
+      "fraction_int": 25,
+      "macro_f1": 0.3388033666518618,
+      "model_key": "mamba2",
+      "output_dir": "results\\learning_curves\\mamba2_seed42_frac25",
+      "run_manifest": "results\\learning_curves\\mamba2_seed42_frac25\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 604.6645781919997
+    },
+    {
+      "accuracy": 0.5169300225733634,
+      "fraction_int": 50,
+      "macro_f1": 0.3273511923933617,
+      "model_key": "mamba2",
+      "output_dir": "results\\learning_curves\\mamba2_seed42_frac50",
+      "run_manifest": "results\\learning_curves\\mamba2_seed42_frac50\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 369.0534455670004
+    },
+    {
+      "accuracy": 0.5609480812641083,
+      "fraction_int": 75,
+      "macro_f1": 0.3317348676896572,
+      "model_key": "mamba2",
+      "output_dir": "results\\learning_curves\\mamba2_seed42_frac75",
+      "run_manifest": "results\\learning_curves\\mamba2_seed42_frac75\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 1060.6331898729986
+    },
+    {
+      "accuracy": 0.5011286681715575,
+      "fraction_int": 100,
+      "macro_f1": 0.31104458939424817,
+      "model_key": "transformer",
+      "output_dir": "results\\learning_curves\\transformer_seed42_frac100",
+      "run_manifest": "results\\learning_curves\\transformer_seed42_frac100\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 487.365490907
+    },
+    {
+      "accuracy": 0.608352144469526,
+      "fraction_int": 25,
+      "macro_f1": 0.3054809438803926,
+      "model_key": "transformer",
+      "output_dir": "results\\learning_curves\\transformer_seed42_frac25",
+      "run_manifest": "results\\learning_curves\\transformer_seed42_frac25\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 673.6470254369997
+    },
+    {
+      "accuracy": 0.49209932279909707,
+      "fraction_int": 50,
+      "macro_f1": 0.25427472141440943,
+      "model_key": "transformer",
+      "output_dir": "results\\learning_curves\\transformer_seed42_frac50",
+      "run_manifest": "results\\learning_curves\\transformer_seed42_frac50\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 130.36669130699997
+    },
+    {
+      "accuracy": 0.45711060948081267,
+      "fraction_int": 75,
+      "macro_f1": 0.27717297715675154,
+      "model_key": "transformer",
+      "output_dir": "results\\learning_curves\\transformer_seed42_frac75",
+      "run_manifest": "results\\learning_curves\\transformer_seed42_frac75\\run_manifest.json",
+      "seed": 42,
+      "status": "completed",
+      "total_train_seconds": 327.621500395
+    }
+  ],
+  "total_count": 20
+}

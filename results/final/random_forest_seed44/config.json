@@ -1,0 +1,30 @@
+{
+  "model": "random_forest",
+  "seed": 44,
+  "feature_matrix": "540-d standardized FMA+rhythm features",
+  "selection_metric": "validation_macro_f1",
+  "refit_scope": "train_validation",
+  "refit_scope_recommendation": {
+    "default_refit_scope": "train_validation",
+    "selected_refit_scope": "train_validation",
+    "recommendation": "Use train_validation for final benchmark runs after validation has selected hyperparameters; use train_only only for strict validation-is-never-refit ablations."
+  },
+  "estimator": {
+    "class_weight": "balanced_subsample",
+    "n_jobs": 8,
+    "random_state": 44
+  },
+  "grid": {
+    "n_estimators": [
+      200,
+      500,
+      1000
+    ],
+    "max_depth": [
+      20,
+      50,
+      null
+    ]
+  },
+  "smoke": false
+}

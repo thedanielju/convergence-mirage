@@ -1,0 +1,51 @@
+{
+  "step": "2.3",
+  "benchmark_subset": {
+    "filter": {
+      "set.subset": "medium"
+    },
+    "rows": 17000,
+    "split_counts": {
+      "training": 13522,
+      "validation": 1705,
+      "test": 1773,
+      "total": 17000
+    }
+  },
+  "artist_overlap": {
+    "training_validation": 0,
+    "training_test": 0,
+    "validation_test": 0
+  },
+  "genre_distribution_path": "data\\validation\\fma_medium\\genre_distribution.csv",
+  "baselines": {
+    "random_guess_accuracy": 0.0625,
+    "majority_class_genre": "Rock",
+    "majority_class_accuracy": 0.359
+  },
+  "audio_validation": {
+    "method": "ffprobe duration parse",
+    "benchmark_tracks_checked": 17000,
+    "readable_count": 16988,
+    "unreadable_count": 12,
+    "unreadable_path": "data\\validation\\fma_medium\\unreadable_audio.csv",
+    "benchmark_ready_manifest": "data\\validation\\fma_medium\\benchmark_ready_manifest.csv",
+    "benchmark_ready_split_counts": {
+      "training": 13512,
+      "validation": 1704,
+      "test": 1772
+    },
+    "duration_summary_seconds": {
+      "count": 16988,
+      "min_seconds": 6.321633,
+      "max_seconds": 30.024,
+      "mean_seconds": 29.997071423946316
+    }
+  },
+  "feature_validation": {
+    "feature_rows_total": 106574,
+    "benchmark_ids_covered": 17000,
+    "missing_feature_count": 0,
+    "missing_feature_ids": []
+  }
+}

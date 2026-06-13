@@ -1,0 +1,167 @@
+[
+  {
+    "accuracy": 0.5445823927765236,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_full_60s",
+    "macro_f1": 0.3219521912217077,
+    "model": "cnn2d",
+    "output_dir": "results/ablation/fma_full60_crop15/cnn2d_seed42_15s",
+    "seed": 42,
+    "source_model": "cnn2d",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5727990970654627,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_full_60s",
+    "macro_f1": 0.3464867676452929,
+    "model": "cnn2d",
+    "output_dir": "results/ablation/fma_full60_crop15/cnn2d_seed43_15s",
+    "seed": 43,
+    "source_model": "cnn2d",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.4971783295711061,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_full_60s",
+    "macro_f1": 0.31881254315016666,
+    "model": "cnn2d",
+    "output_dir": "results/ablation/fma_full60_crop15/cnn2d_seed44_15s",
+    "seed": 44,
+    "source_model": "cnn2d",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5203160270880361,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_full_60s",
+    "macro_f1": 0.29098161935165356,
+    "model": "bilstm",
+    "output_dir": "results/ablation/fma_full60_crop15/lstm_seed42_15s",
+    "seed": 42,
+    "source_model": "lstm",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5908577878103838,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_full_60s",
+    "macro_f1": 0.2930294310533778,
+    "model": "bilstm",
+    "output_dir": "results/ablation/fma_full60_crop15/lstm_seed43_15s",
+    "seed": 43,
+    "source_model": "lstm",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5197516930022573,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_full_60s",
+    "macro_f1": 0.27997843590798027,
+    "model": "bilstm",
+    "output_dir": "results/ablation/fma_full60_crop15/lstm_seed44_15s",
+    "seed": 44,
+    "source_model": "lstm",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5406320541760722,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_full_60s",
+    "macro_f1": 0.3038980718390355,
+    "model": "mamba1",
+    "output_dir": "results/ablation/fma_full60_crop15/mamba1_seed42_15s",
+    "seed": 42,
+    "source_model": "mamba1",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5694130925507901,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_full_60s",
+    "macro_f1": 0.2988526582179213,
+    "model": "mamba1",
+    "output_dir": "results/ablation/fma_full60_crop15/mamba1_seed43_15s",
+    "seed": 43,
+    "source_model": "mamba1",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5304740406320542,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_full_60s",
+    "macro_f1": 0.2883512468665809,
+    "model": "mamba1",
+    "output_dir": "results/ablation/fma_full60_crop15/mamba1_seed44_15s",
+    "seed": 44,
+    "source_model": "mamba1",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5818284424379232,
+    "crop_seconds": 15.0,
+    "data_root": "",
+    "macro_f1": 0.3461033897463307,
+    "model": "mamba2",
+    "output_dir": "results/ablation/mamba2_seed42_15s",
+    "seed": 42,
+    "source_model": "mamba2",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.6348758465011287,
+    "crop_seconds": 15.0,
+    "data_root": "",
+    "macro_f1": 0.3613648463880106,
+    "model": "mamba2",
+    "output_dir": "results/ablation/mamba2_seed43_15s",
+    "seed": 43,
+    "source_model": "mamba2",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5880361173814899,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_medium",
+    "macro_f1": 0.34422497791980905,
+    "model": "mamba2",
+    "output_dir": "results/ablation/mamba2_seed44_15s",
+    "seed": 44,
+    "source_model": "mamba2",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5276523702031602,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_medium",
+    "macro_f1": 0.3112587169143284,
+    "model": "transformer",
+    "output_dir": "results/ablation/transformer_seed42_15s",
+    "seed": 42,
+    "source_model": "transformer",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5152370203160271,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_medium",
+    "macro_f1": 0.3125621899973581,
+    "model": "transformer",
+    "output_dir": "results/ablation/transformer_seed43_15s",
+    "seed": 43,
+    "source_model": "transformer",
+    "status": "completed"
+  },
+  {
+    "accuracy": 0.5948081264108352,
+    "crop_seconds": 15.0,
+    "data_root": "data/processed/fma_medium",
+    "macro_f1": 0.3214892423862834,
+    "model": "transformer",
+    "output_dir": "results/ablation/transformer_seed44_15s",
+    "seed": 44,
+    "source_model": "transformer",
+    "status": "completed"
+  }
+]

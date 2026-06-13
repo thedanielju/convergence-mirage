@@ -1,0 +1,50 @@
+{
+  "mamba_dependency_build": {
+    "passed": true,
+    "version": "mamba1",
+    "dependencies": {
+      "einops": {
+        "module": "einops",
+        "available": true
+      },
+      "causal-conv1d": {
+        "module": "causal_conv1d",
+        "available": true
+      },
+      "mamba-ssm": {
+        "module": "mamba_ssm",
+        "available": true
+      }
+    },
+    "torch_version": "2.12.0.dev20260401+cu128",
+    "torch_cuda_version": "12.8",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5070",
+    "imported_class": "mamba_ssm.modules.mamba_simple.Mamba",
+    "forward_smoke": {
+      "passed": true,
+      "logits_shape": [
+        2,
+        16
+      ],
+      "parameter_count": 2229008
+    }
+  },
+  "single_batch_overfit": {
+    "passed": true,
+    "steps": 9,
+    "final_accuracy": 1.0,
+    "final_loss": 0.04402722790837288
+  },
+  "subset_loss_drop": {
+    "passed": true,
+    "losses": [
+      2.4172865748405457,
+      2.0841497480869293,
+      1.6312523260712624,
+      1.5398429557681084,
+      1.1412954702973366
+    ],
+    "subset_size": 256
+  }
+}

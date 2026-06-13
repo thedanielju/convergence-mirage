@@ -1,0 +1,70 @@
+{
+  "created_at_utc": "2026-05-09T07:19:23.378200Z",
+  "analysis": "tsne_seed42_penultimate_projections",
+  "method": "StandardScaler, PCA to min(50, feature_dim), sklearn TSNE with perplexity=30 and random_state=42.",
+  "umap_status": "not computed; umap-learn is not installed locally and no dependency installation was performed",
+  "label_map": "code/music_classification_code/data/splits/fma_medium/label_map.json",
+  "track_ids": "results/representations/cnn2d_seed42/track_ids.npy",
+  "entries": [
+    {
+      "arch": "cnn2d",
+      "input": "results/representations/cnn2d_seed42/penultimate.npy",
+      "csv": "results/representation_projections/tsne_seed42/cnn2d_tsne_seed42.csv",
+      "figure": "results/representation_projections/tsne_seed42/cnn2d_tsne_seed42.png",
+      "n_samples": 1772,
+      "input_dim": 512,
+      "pca_dim_before_tsne": 50,
+      "tsne_perplexity": 30,
+      "tsne_max_iter": 750,
+      "random_state": 42
+    },
+    {
+      "arch": "bilstm",
+      "input": "results/representations/bilstm_seed42/penultimate.npy",
+      "csv": "results/representation_projections/tsne_seed42/bilstm_tsne_seed42.csv",
+      "figure": "results/representation_projections/tsne_seed42/bilstm_tsne_seed42.png",
+      "n_samples": 1772,
+      "input_dim": 512,
+      "pca_dim_before_tsne": 50,
+      "tsne_perplexity": 30,
+      "tsne_max_iter": 750,
+      "random_state": 42
+    },
+    {
+      "arch": "transformer",
+      "input": "results/representations/transformer_seed42/penultimate.npy",
+      "csv": "results/representation_projections/tsne_seed42/transformer_tsne_seed42.csv",
+      "figure": "results/representation_projections/tsne_seed42/transformer_tsne_seed42.png",
+      "n_samples": 1772,
+      "input_dim": 256,
+      "pca_dim_before_tsne": 50,
+      "tsne_perplexity": 30,
+      "tsne_max_iter": 750,
+      "random_state": 42
+    },
+    {
+      "arch": "mamba1",
+      "input": "results/representations/mamba1_seed42/penultimate.npy",
+      "csv": "results/representation_projections/tsne_seed42/mamba1_tsne_seed42.csv",
+      "figure": "results/representation_projections/tsne_seed42/mamba1_tsne_seed42.png",
+      "n_samples": 1772,
+      "input_dim": 256,
+      "pca_dim_before_tsne": 50,
+      "tsne_perplexity": 30,
+      "tsne_max_iter": 750,
+      "random_state": 42
+    },
+    {
+      "arch": "mamba2",
+      "input": "results/representations/mamba2_seed42/penultimate.npy",
+      "csv": "results/representation_projections/tsne_seed42/mamba2_tsne_seed42.csv",
+      "figure": "results/representation_projections/tsne_seed42/mamba2_tsne_seed42.png",
+      "n_samples": 1772,
+      "input_dim": 256,
+      "pca_dim_before_tsne": 50,
+      "tsne_perplexity": 30,
+      "tsne_max_iter": 750,
+      "random_state": 42
+    }
+  ]
+}

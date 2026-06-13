@@ -1,0 +1,27 @@
+{
+  "cnn2d": {
+    "mean_inter_arch_linear_cka": 0.6618984883255704,
+    "linear_cka_to_classical_full": 0.13387048459966175,
+    "novelty_gap": 0.5280280037259086
+  },
+  "bilstm": {
+    "mean_inter_arch_linear_cka": 0.6803769803231461,
+    "linear_cka_to_classical_full": 0.12299887629037883,
+    "novelty_gap": 0.5573781040327672
+  },
+  "transformer": {
+    "mean_inter_arch_linear_cka": 0.6219853370373257,
+    "linear_cka_to_classical_full": 0.11108735287113791,
+    "novelty_gap": 0.5108979841661878
+  },
+  "mamba1": {
+    "mean_inter_arch_linear_cka": 0.7301648552436619,
+    "linear_cka_to_classical_full": 0.11795885337601107,
+    "novelty_gap": 0.6122060018676508
+  },
+  "mamba2": {
+    "mean_inter_arch_linear_cka": 0.7321164126524784,
+    "linear_cka_to_classical_full": 0.11750845019228784,
+    "novelty_gap": 0.6146079624601906
+  }
+}

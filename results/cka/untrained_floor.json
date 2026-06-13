@@ -1,0 +1,77 @@
+{
+  "untrained_floor_mean_inter_arch_linear_cka": 0.6642960282426345,
+  "inter_arch_pairs": [
+    {
+      "left": "cnn2d",
+      "right": "bilstm",
+      "linear_cka": 0.3132364605198165
+    },
+    {
+      "left": "cnn2d",
+      "right": "transformer",
+      "linear_cka": 0.3128755264960546
+    },
+    {
+      "left": "cnn2d",
+      "right": "mamba1",
+      "linear_cka": 0.3406864398301734
+    },
+    {
+      "left": "cnn2d",
+      "right": "mamba2",
+      "linear_cka": 0.24299982294704173
+    },
+    {
+      "left": "bilstm",
+      "right": "transformer",
+      "linear_cka": 0.9210923419323042
+    },
+    {
+      "left": "bilstm",
+      "right": "mamba1",
+      "linear_cka": 0.9372201215145932
+    },
+    {
+      "left": "bilstm",
+      "right": "mamba2",
+      "linear_cka": 0.844068868002136
+    },
+    {
+      "left": "transformer",
+      "right": "mamba1",
+      "linear_cka": 0.9495627986879979
+    },
+    {
+      "left": "transformer",
+      "right": "mamba2",
+      "linear_cka": 0.8796485952901322
+    },
+    {
+      "left": "mamba1",
+      "right": "mamba2",
+      "linear_cka": 0.9015693072060958
+    }
+  ],
+  "trained_vs_untrained_same_arch": [
+    {
+      "model_key": "cnn2d",
+      "linear_cka": 0.2546826546852693
+    },
+    {
+      "model_key": "bilstm",
+      "linear_cka": 0.5434994021906314
+    },
+    {
+      "model_key": "transformer",
+      "linear_cka": 0.443905280351536
+    },
+    {
+      "model_key": "mamba1",
+      "linear_cka": 0.483689591433965
+    },
+    {
+      "model_key": "mamba2",
+      "linear_cka": 0.4792324167417321
+    }
+  ]
+}

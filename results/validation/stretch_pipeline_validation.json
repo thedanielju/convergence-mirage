@@ -1,0 +1,191 @@
+{
+  "checks": [
+    {
+      "detail": "completed_count=15; total_count=15",
+      "name": "ablation_manifest_current",
+      "path": "results/ablation_manifest.json",
+      "status": "ok"
+    },
+    {
+      "detail": "completed_count=8; total_count=8",
+      "name": "long_sequence_manifest_current",
+      "path": "results/long_sequence/manifest.json",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/fma_full60_crop15/cnn2d_seed42_15s:metric_side_contract",
+      "path": "results/ablation/fma_full60_crop15/cnn2d_seed42_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/fma_full60_crop15/cnn2d_seed43_15s:metric_side_contract",
+      "path": "results/ablation/fma_full60_crop15/cnn2d_seed43_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/fma_full60_crop15/cnn2d_seed44_15s:metric_side_contract",
+      "path": "results/ablation/fma_full60_crop15/cnn2d_seed44_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/fma_full60_crop15/lstm_seed42_15s:metric_side_contract",
+      "path": "results/ablation/fma_full60_crop15/lstm_seed42_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/fma_full60_crop15/lstm_seed43_15s:metric_side_contract",
+      "path": "results/ablation/fma_full60_crop15/lstm_seed43_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/fma_full60_crop15/lstm_seed44_15s:metric_side_contract",
+      "path": "results/ablation/fma_full60_crop15/lstm_seed44_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/fma_full60_crop15/mamba1_seed42_15s:metric_side_contract",
+      "path": "results/ablation/fma_full60_crop15/mamba1_seed42_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/fma_full60_crop15/mamba1_seed43_15s:metric_side_contract",
+      "path": "results/ablation/fma_full60_crop15/mamba1_seed43_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/fma_full60_crop15/mamba1_seed44_15s:metric_side_contract",
+      "path": "results/ablation/fma_full60_crop15/mamba1_seed44_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/mamba2_seed42_15s:metric_side_contract",
+      "path": "results/ablation/mamba2_seed42_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/mamba2_seed43_15s:metric_side_contract",
+      "path": "results/ablation/mamba2_seed43_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/mamba2_seed44_15s:metric_side_contract",
+      "path": "results/ablation/mamba2_seed44_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/transformer_seed42_15s:metric_side_contract",
+      "path": "results/ablation/transformer_seed42_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/transformer_seed43_15s:metric_side_contract",
+      "path": "results/ablation/transformer_seed43_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/ablation/transformer_seed44_15s:metric_side_contract",
+      "path": "results/ablation/transformer_seed44_15s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/long_sequence/mamba2_seed42_60s:metric_side_contract",
+      "path": "results/long_sequence/mamba2_seed42_60s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/long_sequence/mamba2_seed43_60s:metric_side_contract",
+      "path": "results/long_sequence/mamba2_seed43_60s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/long_sequence/mamba2_seed44_60s:metric_side_contract",
+      "path": "results/long_sequence/mamba2_seed44_60s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/long_sequence/mamba2_seed45_60s:metric_side_contract",
+      "path": "results/long_sequence/mamba2_seed45_60s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/long_sequence/mamba2_seed46_60s:metric_side_contract",
+      "path": "results/long_sequence/mamba2_seed46_60s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/long_sequence/transformer_seed42_60s:metric_side_contract",
+      "path": "results/long_sequence/transformer_seed42_60s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/long_sequence/transformer_seed43_60s:metric_side_contract",
+      "path": "results/long_sequence/transformer_seed43_60s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "results/long_sequence/transformer_seed44_60s:metric_side_contract",
+      "path": "results/long_sequence/transformer_seed44_60s",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "paper_assets:table4_ablation.csv",
+      "path": "results/paper_assets/table4_ablation.csv",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "paper_assets:table4_ablation.json",
+      "path": "results/paper_assets/table4_ablation.json",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "paper_assets:table5_long_sequence.csv",
+      "path": "results/paper_assets/table5_long_sequence.csv",
+      "status": "ok"
+    },
+    {
+      "detail": "present",
+      "name": "paper_assets:table5_long_sequence.json",
+      "path": "results/paper_assets/table5_long_sequence.json",
+      "status": "ok"
+    },
+    {
+      "detail": "pointers=130; missing_best_pt=0",
+      "name": "checkpoint_pointer_coverage_may9_local_only",
+      "path": "manifests/checkpoint_gap_resolution_pointer_manifest_20260509.tsv",
+      "status": "ok"
+    }
+  ],
+  "counts": {
+    "fail": 0,
+    "ok": 30,
+    "warn": 0
+  },
+  "created_at_utc": "2026-05-09T07:20:56.384797Z",
+  "scope": "Current gap-resolution validation after refreshing stretch manifests and paper asset tables. Heavy .pt/.npy contracts are pointer-validated, not copied locally."
+}

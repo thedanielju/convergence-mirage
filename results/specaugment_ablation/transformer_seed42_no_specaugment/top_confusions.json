@@ -1,0 +1,84 @@
+{
+  "top_confusions": [
+    {
+      "true_label": 3,
+      "predicted_label": 8,
+      "true_name": "Easy Listening",
+      "predicted_name": "Instrumental",
+      "count": 3,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 9,
+      "predicted_label": 2,
+      "true_name": "International",
+      "predicted_name": "Country",
+      "count": 1,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 9,
+      "predicted_label": 10,
+      "true_name": "International",
+      "predicted_name": "Jazz",
+      "count": 1,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 8,
+      "predicted_label": 6,
+      "true_name": "Instrumental",
+      "predicted_name": "Folk",
+      "count": 31,
+      "true_class_rate": 0.4189189189189189
+    },
+    {
+      "true_label": 2,
+      "predicted_label": 6,
+      "true_name": "Country",
+      "predicted_name": "Folk",
+      "count": 7,
+      "true_class_rate": 0.3888888888888889
+    },
+    {
+      "true_label": 5,
+      "predicted_label": 8,
+      "true_name": "Experimental",
+      "predicted_name": "Instrumental",
+      "count": 37,
+      "true_class_rate": 0.296
+    },
+    {
+      "true_label": 10,
+      "predicted_label": 6,
+      "true_name": "Jazz",
+      "predicted_name": "Folk",
+      "count": 11,
+      "true_class_rate": 0.28205128205128205
+    },
+    {
+      "true_label": 12,
+      "predicted_label": 6,
+      "true_name": "Pop",
+      "predicted_name": "Folk",
+      "count": 5,
+      "true_class_rate": 0.2631578947368421
+    },
+    {
+      "true_label": 15,
+      "predicted_label": 6,
+      "true_name": "Spoken",
+      "predicted_name": "Folk",
+      "count": 3,
+      "true_class_rate": 0.25
+    },
+    {
+      "true_label": 0,
+      "predicted_label": 2,
+      "true_name": "Blues",
+      "predicted_name": "Country",
+      "count": 2,
+      "true_class_rate": 0.25
+    }
+  ]
+}

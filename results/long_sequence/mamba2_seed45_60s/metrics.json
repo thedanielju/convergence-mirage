@@ -1,0 +1,255 @@
+{
+  "model": "mamba2",
+  "seed": 45,
+  "debug_gates": {
+    "skipped": true,
+    "reason": "--skip-debug-gates was set",
+    "mamba_dependency_build": {
+      "passed": true,
+      "version": "mamba2",
+      "dependencies": {
+        "einops": {
+          "module": "einops",
+          "available": true
+        },
+        "causal-conv1d": {
+          "module": "causal_conv1d",
+          "available": true
+        },
+        "mamba-ssm": {
+          "module": "mamba_ssm",
+          "available": true
+        }
+      },
+      "torch_version": "2.8.0+cu128",
+      "torch_cuda_version": "12.8",
+      "cuda_available": true,
+      "gpu_name": "NVIDIA L4",
+      "imported_class": "mamba_ssm.modules.mamba2.Mamba2",
+      "forward_smoke": {
+        "passed": true,
+        "logits_shape": [
+          2,
+          16
+        ],
+        "parameter_count": 2199048
+      }
+    }
+  },
+  "parameter_count": 2199048,
+  "dataset_sizes": {
+    "training": 13512,
+    "validation": 1704,
+    "test": 1772
+  },
+  "best_epoch": 18,
+  "best_val_macro_f1": 0.3967410384608264,
+  "total_train_seconds": 2759.6386142560004,
+  "peak_gpu_memory_allocated_mb": 3387.08203125,
+  "test_accuracy": 0.5468397291196389,
+  "test_balanced_accuracy": 0.36908624306361254,
+  "test_macro_f1": 0.3253028747343497,
+  "test_weighted_f1": 0.592975505768501,
+  "test_macro_precision": 0.32045379371444443,
+  "test_macro_recall": 0.36908624306361254,
+  "test_cohen_kappa": 0.45514961869709114,
+  "test_matthews_corrcoef": 0.4624223627215396,
+  "test_top_2_accuracy": 0.7082392776523702,
+  "test_top_3_accuracy": 0.7979683972911964,
+  "test_expected_calibration_error": 0.09779264910764673,
+  "test_multiclass_brier": 0.6141820408274333,
+  "test_roc_auc_ovr_macro": null,
+  "classification_report": {
+    "0": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 8.0
+    },
+    "1": {
+      "precision": 0.5148514851485149,
+      "recall": 0.8387096774193549,
+      "f1-score": 0.6380368098159509,
+      "support": 62.0
+    },
+    "2": {
+      "precision": 0.05970149253731343,
+      "recall": 0.2222222222222222,
+      "f1-score": 0.09411764705882353,
+      "support": 18.0
+    },
+    "3": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "4": {
+      "precision": 0.8520710059171598,
+      "recall": 0.5413533834586466,
+      "f1-score": 0.6620689655172415,
+      "support": 532.0
+    },
+    "5": {
+      "precision": 0.2787878787878788,
+      "recall": 0.368,
+      "f1-score": 0.31724137931034485,
+      "support": 125.0
+    },
+    "6": {
+      "precision": 0.24,
+      "recall": 0.34615384615384615,
+      "f1-score": 0.28346456692913385,
+      "support": 52.0
+    },
+    "7": {
+      "precision": 0.5862068965517241,
+      "recall": 0.7083333333333334,
+      "f1-score": 0.6415094339622641,
+      "support": 120.0
+    },
+    "8": {
+      "precision": 0.05357142857142857,
+      "recall": 0.08108108108108109,
+      "f1-score": 0.06451612903225806,
+      "support": 74.0
+    },
+    "9": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "10": {
+      "precision": 0.34615384615384615,
+      "recall": 0.23076923076923078,
+      "f1-score": 0.276923076923077,
+      "support": 39.0
+    },
+    "11": {
+      "precision": 0.98,
+      "recall": 0.9607843137254902,
+      "f1-score": 0.9702970297029702,
+      "support": 51.0
+    },
+    "12": {
+      "precision": 0.04225352112676056,
+      "recall": 0.15789473684210525,
+      "f1-score": 0.06666666666666667,
+      "support": 19.0
+    },
+    "13": {
+      "precision": 0.8633405639913232,
+      "recall": 0.6524590163934426,
+      "f1-score": 0.7432306255835667,
+      "support": 610.0
+    },
+    "14": {
+      "precision": 0.02,
+      "recall": 0.047619047619047616,
+      "f1-score": 0.028169014084507043,
+      "support": 42.0
+    },
+    "15": {
+      "precision": 0.2903225806451613,
+      "recall": 0.75,
+      "f1-score": 0.4186046511627908,
+      "support": 12.0
+    },
+    "accuracy": 0.5468397291196389,
+    "macro avg": {
+      "precision": 0.32045379371444443,
+      "recall": 0.36908624306361254,
+      "f1-score": 0.3253028747343497,
+      "support": 1772.0
+    },
+    "weighted avg": {
+      "precision": 0.6789950474862548,
+      "recall": 0.5468397291196389,
+      "f1-score": 0.592975505768501,
+      "support": 1772.0
+    }
+  },
+  "top_confusions": [
+    {
+      "true_label": 0,
+      "predicted_label": 13,
+      "true_name": "Blues",
+      "predicted_name": "Rock",
+      "count": 4,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 9,
+      "predicted_label": 2,
+      "true_name": "International",
+      "predicted_name": "Country",
+      "count": 1,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 9,
+      "predicted_label": 7,
+      "true_name": "International",
+      "predicted_name": "Hip-Hop",
+      "count": 1,
+      "true_class_rate": 0.5
+    },
+    {
+      "true_label": 14,
+      "predicted_label": 13,
+      "true_name": "Soul-RnB",
+      "predicted_name": "Rock",
+      "count": 18,
+      "true_class_rate": 0.42857142857142855
+    },
+    {
+      "true_label": 10,
+      "predicted_label": 14,
+      "true_name": "Jazz",
+      "predicted_name": "Soul-RnB",
+      "count": 13,
+      "true_class_rate": 0.3333333333333333
+    },
+    {
+      "true_label": 3,
+      "predicted_label": 1,
+      "true_name": "Easy Listening",
+      "predicted_name": "Classical",
+      "count": 2,
+      "true_class_rate": 0.3333333333333333
+    },
+    {
+      "true_label": 14,
+      "predicted_label": 4,
+      "true_name": "Soul-RnB",
+      "predicted_name": "Electronic",
+      "count": 12,
+      "true_class_rate": 0.2857142857142857
+    },
+    {
+      "true_label": 12,
+      "predicted_label": 4,
+      "true_name": "Pop",
+      "predicted_name": "Electronic",
+      "count": 5,
+      "true_class_rate": 0.2631578947368421
+    },
+    {
+      "true_label": 8,
+      "predicted_label": 6,
+      "true_name": "Instrumental",
+      "predicted_name": "Folk",
+      "count": 17,
+      "true_class_rate": 0.22972972972972974
+    },
+    {
+      "true_label": 2,
+      "predicted_label": 6,
+      "true_name": "Country",
+      "predicted_name": "Folk",
+      "count": 4,
+      "true_class_rate": 0.2222222222222222
+    }
+  ]
+}

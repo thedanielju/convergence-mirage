@@ -1,0 +1,44 @@
+{
+  "mean_offdiag_transfer_macro_f1": 0.4925892685637693,
+  "mean_self_probe_macro_f1": 0.5351682090391111,
+  "mean_transfer_retention_vs_self": 0.9204382103492436,
+  "best_offdiag_transfer": {
+    "source_arch": "bilstm",
+    "target_arch": "cnn2d",
+    "mode": "source_probe_on_target_via_ridge_bridge",
+    "accuracy": 0.7556390977443609,
+    "balanced_accuracy": 0.5374427146213169,
+    "macro_f1": 0.5616696644385751,
+    "weighted_f1": 0.7469858429420136
+  },
+  "worst_offdiag_transfer": {
+    "source_arch": "cnn2d",
+    "target_arch": "transformer",
+    "mode": "source_probe_on_target_via_ridge_bridge",
+    "accuracy": 0.7011278195488722,
+    "balanced_accuracy": 0.4139775547584003,
+    "macro_f1": 0.4057655280709388,
+    "weighted_f1": 0.6822468131499657
+  },
+  "mean_transfer_macro_f1_by_source": {
+    "bilstm": 0.5178838672157117,
+    "cnn2d": 0.4569990993393297,
+    "mamba1": 0.4842273541836527,
+    "mamba2": 0.5163659173987032,
+    "transformer": 0.487470104681449
+  },
+  "mean_transfer_macro_f1_by_target": {
+    "bilstm": 0.4684906723281574,
+    "cnn2d": 0.557003983262427,
+    "mamba1": 0.48839024618492916,
+    "mamba2": 0.5080121693757402,
+    "transformer": 0.44104927166759256
+  },
+  "self_probe_macro_f1_by_arch": {
+    "cnn2d": 0.6898203412790954,
+    "bilstm": 0.5734268229315751,
+    "transformer": 0.4192701294677743,
+    "mamba1": 0.4866814880958558,
+    "mamba2": 0.5066422634212547
+  }
+}

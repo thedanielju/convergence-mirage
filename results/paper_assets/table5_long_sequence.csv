@@ -1,0 +1,9 @@
+model,source_model,seed,crop_seconds,status,macro_f1,accuracy,data_root,output_dir
+mamba2,mamba2,42,60.0,completed,0.31675269632402936,0.5118510158013544,data/processed/fma_full_60s,results/long_sequence/mamba2_seed42_60s
+mamba2,mamba2,43,60.0,completed,0.3211127077360033,0.5801354401805869,data/processed/fma_full_60s,results/long_sequence/mamba2_seed43_60s
+mamba2,mamba2,44,60.0,completed,0.35367769338347776,0.6467268623024831,data/processed/fma_full_60s,results/long_sequence/mamba2_seed44_60s
+mamba2,mamba2,45,60.0,completed,0.3253028747343497,0.5468397291196389,data/processed/fma_full_60s,results/long_sequence/mamba2_seed45_60s
+mamba2,mamba2,46,60.0,completed,0.33606363767774255,0.5349887133182845,data/processed/fma_full_60s,results/long_sequence/mamba2_seed46_60s
+transformer,transformer,42,60.0,completed,0.33956223102839755,0.585214446952596,data/processed/fma_full_60s,results/long_sequence/transformer_seed42_60s
+transformer,transformer,43,60.0,completed,0.3262288749054969,0.5620767494356659,data/processed/fma_full_60s,results/long_sequence/transformer_seed43_60s
+transformer,transformer,44,60.0,completed,0.31853455148550874,0.5637697516930023,data/processed/fma_full_60s,results/long_sequence/transformer_seed44_60s

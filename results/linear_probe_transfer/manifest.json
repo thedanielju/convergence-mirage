@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-05-09T07:37:34.464038+00:00",
+  "command": "python scripts/03_analysis/cross_arch_linear_probe_transfer.py --hub-root . --output-dir results/linear_probe_transfer",
+  "protocol": "seed42_test_representations_internal_stratified_split_ridge_bridged_probe_transfer",
+  "sample_count_aligned": 1772,
+  "train_count": 1240,
+  "test_count": 532,
+  "n_classes": 16,
+  "split_seed": 42,
+  "test_size": 0.3,
+  "ridge_alpha": 10.0,
+  "logistic_regression": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 5000,
+    "solver": "lbfgs"
+  },
+  "input_representation_dirs": [
+    "results/representations/cnn2d_seed42",
+    "results/representations/bilstm_seed42",
+    "results/representations/transformer_seed42",
+    "results/representations/mamba1_seed42",
+    "results/representations/mamba2_seed42"
+  ],
+  "track_id_sha256_note": "track IDs are stored in aligned_track_ids.npy",
+  "outputs": [
+    "aligned_track_ids.npy",
+    "manifest.json",
+    "pairwise_transfer.csv",
+    "report.md",
+    "summary.json"
+  ],
+  "limitations": [
+    "Uses local seed-42 test representations with an internal split; training-split representations are not local in this hub.",
+    "Off-diagonal transfer uses a ridge linear bridge because raw probe coefficients are not coordinate-aligned across independently trained architectures and representation dimensions differ."
+  ]
+}

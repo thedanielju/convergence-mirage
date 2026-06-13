@@ -1,0 +1,114 @@
+{
+  "artifact_schema_version": 2,
+  "model": "cnn2d",
+  "display_name": "cnn2d_final_baseline",
+  "seed": 42,
+  "entrypoint": "scripts/02_train/train_deep.py",
+  "api_contract": {
+    "forward": "forward(inputs) -> logits",
+    "penultimate": "get_penultimate(inputs) -> representation",
+    "intermediate": "get_intermediate_representations(inputs) -> dict[str, Tensor]"
+  },
+  "training": {
+    "batch_size": 32,
+    "max_epochs": 40,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "scheduler": "CosineAnnealingLR",
+    "warmup_epochs": 0,
+    "early_stopping_metric": "val_macro_f1",
+    "early_stopping_patience": 6,
+    "max_grad_norm": null,
+    "amp": {
+      "enabled_on_cuda": true,
+      "enabled_on_cpu": false
+    },
+    "specaugment": "disabled",
+    "class_weights": "data/splits/fma_medium/class_weights.json normalized to mean 1.0"
+  },
+  "debug_gates": {
+    "single_batch_overfit_steps": 200,
+    "single_batch_size": 8,
+    "subset_size": 256,
+    "subset_epochs": 5
+  },
+  "architecture": {
+    "input_shape": [
+      128,
+      1292
+    ],
+    "internal_input_shape": [
+      1,
+      128,
+      1292
+    ],
+    "channels": [
+      1,
+      32,
+      128,
+      256,
+      512,
+      512
+    ],
+    "kernels": [
+      [
+        5,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "time_frequency_pooling": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      null
+    ],
+    "pooling": "adaptive_average_2d",
+    "representation_dim": 512,
+    "classifier": "Linear(512, 16)",
+    "parameter_target": "about 4.1M parameters; within 2-5M target"
+  },
+  "data_loader": {
+    "num_workers": 4,
+    "seeded_generator": true,
+    "worker_init_fn": "seed_worker",
+    "crop_seconds": 30.0,
+    "data_root": "data/processed/fma_full_60s"
+  },
+  "crop_seconds": 30.0,
+  "data_root": "data/processed/fma_full_60s",
+  "data_limits": {
+    "limit_train_samples": null,
+    "limit_val_samples": null,
+    "limit_test_samples": null
+  }
+}

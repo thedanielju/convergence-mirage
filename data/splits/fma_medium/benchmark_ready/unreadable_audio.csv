@@ -1,0 +1,25 @@
+track_id,split,artist_id,genre_top,audio_path,readable,error,duration_seconds
+5574,test,1050,Rock,data\raw\fma_medium\005\005574.mp3,False,"[mp3 @ 0000021effd0f2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\005\005574.mp3: Invalid data found when processing input",
+1486,training,249,Electronic,data\raw\fma_medium\001\001486.mp3,False,"[mp3 @ 000001b242e7f2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\001\001486.mp3: Invalid data found when processing input",
+80391,training,13452,Instrumental,data\raw\fma_medium\080\080391.mp3,False,"[mp3 @ 0000021dd4d1f2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\080\080391.mp3: Invalid data found when processing input",
+98558,training,15196,Hip-Hop,data\raw\fma_medium\098\098558.mp3,False,"[mp3 @ 00000175e76cf2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\098\098558.mp3: Invalid data found when processing input",
+98559,training,15196,Hip-Hop,data\raw\fma_medium\098\098559.mp3,False,"[mp3 @ 00000280ac2bf2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\098\098559.mp3: Invalid data found when processing input",
+98560,training,15196,Hip-Hop,data\raw\fma_medium\098\098560.mp3,False,"[mp3 @ 000002184518f2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\098\098560.mp3: Invalid data found when processing input",
+98571,training,15196,Hip-Hop,data\raw\fma_medium\098\098571.mp3,False,"[mp3 @ 00000287c680f2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\098\098571.mp3: Invalid data found when processing input",
+105247,training,12779,Rock,data\raw\fma_medium\105\105247.mp3,False,"[mp3 @ 0000017921eef2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\105\105247.mp3: Invalid data found when processing input",
+126981,training,17769,Folk,data\raw\fma_medium\126\126981.mp3,False,"[mp3 @ 000001e09972f2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\126\126981.mp3: Invalid data found when processing input",
+127336,training,7410,Rock,data\raw\fma_medium\127\127336.mp3,False,"[mp3 @ 000001e4186bf2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\127\127336.mp3: Invalid data found when processing input",
+143992,training,22963,Rock,data\raw\fma_medium\143\143992.mp3,False,"[mp3 @ 00000219387bf2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\143\143992.mp3: Invalid data found when processing input",
+65753,validation,13731,Electronic,data\raw\fma_medium\065\065753.mp3,False,"[mp3 @ 000001c609f2f2c0] Failed to find two consecutive MPEG audio frames.
+data\raw\fma_medium\065\065753.mp3: Invalid data found when processing input",
